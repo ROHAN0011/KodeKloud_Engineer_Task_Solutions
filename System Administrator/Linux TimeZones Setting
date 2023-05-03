@@ -1,1 +1,60 @@
-q
+{{{{{{{{{{Terminal 1}}}}}}}}}}}
+
+host~$ ssh tony@stapp01          <----------------(tony@stapp01 is App Server 1)
+
+*select yes*
+
+*Enter the Password*
+
+[tony@stapp01 ~]$ sudo su -
+
+*Enter the Password*
+
+[root@stapp01 ~]# timedatectl
+
+[root@stapp01 ~]# timedatectl set-timezone      <------------Enter the given timezone here 
+
+[root@stapp01 ~]# timedatectl
+
+
+
+
+{{{{{{{{{Terminal 2}}}}}}}}}}}}}
+
+host~$ ssh steve@stapp02          
+
+*select yes*
+
+*Enter the Password*
+
+[steve@stapp02 ~]$ sudo su -
+
+*Enter the Password*
+
+[root@stapp02 ~]# timedatectl
+
+[root@stapp02 ~]# timedatectl set-timezone      <------------Enter the given timezone here 
+
+[root@stapp02 ~]# timedatectl
+
+
+
+
+
+{{{{{{{{{{{{{{{Terminal 3}}}}}}}}}}}}}}}}}
+
+host~$ ssh banner@stapp03          
+
+*select yes*
+
+*Enter the Password*
+
+[banner@stapp03 ~]$ sudo su -
+
+*Enter the Password*
+
+[root@stapp03 ~]# timedatectl
+
+[root@stapp03 ~]# timedatectl set-timezone      <------------Enter the given timezone here 
+
+[root@stapp03 ~]# timedatectl
