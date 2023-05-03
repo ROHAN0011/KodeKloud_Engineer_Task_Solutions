@@ -1,6 +1,6 @@
 {{{{{{{{{{Terminal 1}}}}}}}}}}}
 
-host~$ ssh tony@stapp01          <----------------(tony@stapp01 is App Server 1)
+host~$ ssh tony@stapp01          <----------------(tony@stapp01 is App Server 1 If the Infrastructure data changes by time then change it according that)
 
 *select yes*
 
@@ -12,7 +12,7 @@ host~$ ssh tony@stapp01          <----------------(tony@stapp01 is App Server 1)
 
 [root@stapp01 ~]# timedatectl
 
-[root@stapp01 ~]# timedatectl set-timezone      <------------Enter the given timezone here 
+[root@stapp01 ~]# timedatectl set-timezone      <------------Enter the given timezone in Question here 
 
 [root@stapp01 ~]# timedatectl
 
@@ -33,7 +33,7 @@ host~$ ssh steve@stapp02
 
 [root@stapp02 ~]# timedatectl
 
-[root@stapp02 ~]# timedatectl set-timezone      <------------Enter the given timezone here 
+[root@stapp02 ~]# timedatectl set-timezone       
 
 [root@stapp02 ~]# timedatectl
 
@@ -55,6 +55,6 @@ host~$ ssh banner@stapp03
 
 [root@stapp03 ~]# timedatectl
 
-[root@stapp03 ~]# timedatectl set-timezone      <------------Enter the given timezone here 
+[root@stapp03 ~]# timedatectl set-timezone      
 
 [root@stapp03 ~]# timedatectl
