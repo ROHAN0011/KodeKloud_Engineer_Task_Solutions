@@ -1,1 +1,21 @@
-q
+ssh banner@stapp03               <----------- banner@stapp03 is given user and appserver in Q change it accordingly
+
+[Enter Password]
+
+sudu su -
+
+[Enter Password]
+
+chmod o+rx /tmp/xfusioncorp.sh    <---------- /tmp/xfusioncorp.sh is given script path in Q change it accordingly
+
+ll /tmp/xfusioncorp.sh
+
+chmod a+rx /tmp/xfusioncorp.sh
+
+ll /tmp/xfusioncorp.sh
+
+exit
+
+cd /tmp/
+
+./xfusioncorp.sh
