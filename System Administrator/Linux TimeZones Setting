@@ -1,4 +1,4 @@
-{{{{{{{{{{Terminal 1}}}}}}}}}}}
+{{{{{{{{{{ Terminal 1 }}}}}}}}}}}
 
 host~$ ssh tony@stapp01          <----------------(tony@stapp01 is App Server 1 If the Infrastructure data changes by time then change it according that)
 
@@ -19,7 +19,7 @@ host~$ ssh tony@stapp01          <----------------(tony@stapp01 is App Server 1 
 
 
 
-{{{{{{{{{Terminal 2}}}}}}}}}}}}}
+{{{{{{{{{{{ Terminal 2 }}}}}}}}}}}}}
 
 host~$ ssh steve@stapp02          
 
@@ -41,7 +41,7 @@ host~$ ssh steve@stapp02
 
 
 
-{{{{{{{{{{{{{{{Terminal 3}}}}}}}}}}}}}}}}}
+{{{{{{{{{{{{{ Terminal 3 }}}}}}}}}}}}}
 
 host~$ ssh banner@stapp03          
 
