@@ -1,5 +1,7 @@
 ssh banner@stapp03               <----------- banner@stapp03 is given user and appserver in Q change it accordingly
 
+[Type yes]
+
 [Enter Password]
 
 sudu su -
