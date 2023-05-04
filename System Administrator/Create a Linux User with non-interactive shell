@@ -1,1 +1,37 @@
-code
+{{{{{{{{{{ Method 1 }}}}}}}}}}}}
+
+ssh steve@stapp02
+
+[type yes]
+
+[Enter Password]
+
+sudo su - 
+
+[Enter Password]
+
+useradd rohan -s /sbin/nologin         <------------Enter given Id/Name replacing rohan
+
+cat /etc/passwd | grep -i rohan
+
+
+
+
+
+
+{{{{{{{{{{ Method 2 }}}}}}}}}}}}
+ssh steve@stapp02
+
+[type yes]
+
+[Enter Password]
+
+sudo useradd rohan -s /sbin/nologin
+
+id rohan
+
+sudo - rohan
+
+[Password]
+
+sudo cat /etc/passwd |grep rohan
