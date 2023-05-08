@@ -1,0 +1,25 @@
+ssh grrot@stmail01                                           <----------------Login to given mail server
+
+[yes] 
+[Password]
+
+sudo su -                                                    <----------------Switch to root user
+[Password]
+
+systemctl status postfix -l
+
+cat  /etc/postfix/main.cf |grep inet_interface
+
+vi /etc/postfix/main.cf                                      <--------------- Opening Vi editor
+
+[Click i for insert]
+[Pree esc button]
+[Shift +:+ wq]                                               <---------------- Exit from Vi editor
+
+cat  /etc/postfix/main.cf |grep inet_interface
+
+systemctl start postfix
+
+systemctl status postfix
+
+telnet localhost 25
