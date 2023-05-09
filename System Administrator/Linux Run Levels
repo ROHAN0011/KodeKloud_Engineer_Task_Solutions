@@ -1,0 +1,64 @@
+{{{{{{{{{{{ Terminal 1 }}}}}}}}}}}}
+ssh tony@stapp01                      <-----------Given App Server User Login
+[yes]
+[Password]
+
+sudo su -                             <-----------Switch to super user/root user
+[Password]
+
+systemctl get-default                 <----------(Output : multi-user.target)
+
+systemctl status graphical.target
+
+systemctl start graphical.target
+
+systemctl status graphical.target
+
+systemctl set-default graphical.target
+
+systemctl get-default                  <---------(Output Required : graphical.target)
+
+
+
+{{{{{{{{{{{ Terminal 2 }}}}}}}}}}}}
+ssh steve@stapp02
+[yes]
+[Password]
+
+sudo su -
+[Password]
+
+systemctl get-default                
+
+systemctl status graphical.target
+
+systemctl start graphical.target
+
+systemctl status graphical.target
+
+systemctl set-default graphical.target
+
+systemctl get-default                
+
+
+
+
+{{{{{{{{{{{ Terminal 3 }}}}}}}}}}}}
+ssh banner@stapp03
+[yes]
+[Password]
+
+sudo su -
+[Password]
+
+systemctl get-default                
+
+systemctl status graphical.target
+
+systemctl start graphical.target
+
+systemctl status graphical.target
+
+systemctl set-default graphical.target
+
+systemctl get-default                
