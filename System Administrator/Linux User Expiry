@@ -1,0 +1,18 @@
+ssh banner@stapp03                 <--------------login to given app server
+[yes]
+[password]
+
+sudo su -
+[password]
+
+id rohan                            <--------------rohan is username 
+
+adduser rohan                       <--------------we adding given username because it is not present
+
+id rohan
+
+chage -l rohan
+
+chage -E 2021-04-15 rohan            <--------------enter given date in Task Question
+
+chage -l rohan                       <--------------account expiry date will update
