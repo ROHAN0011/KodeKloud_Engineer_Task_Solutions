@@ -1,0 +1,18 @@
+ssh banner@stapp03                  <-------------Given appserver login
+[yes]
+[password]
+
+sudo su -                           <-------------Switch to root
+[password]
+
+mkdir -p /sysops/data               <-------------/sysops/data is given path
+
+ll -lsd /devops/data/
+
+chgrp -R devops /devops/data
+
+ll -lsd /devops/data/
+
+chmod -R 2770 /devops/data          <----------2770 is read/write/execute permission
+
+ll -lsd /devops/data/               <----------You can see updated permission
