@@ -1,0 +1,25 @@
+ssh peter@stdb01                       <----------ssh login to given database server
+[yes]
+[password]
+
+sudo systemctl status mariadb
+
+sudo systemctl start mariadb           <-----------you will receive an error
+
+sudo journalctl -u mariadb.service
+
+ll -lsd /var/lib/mysql/
+
+sudo chown mysql:mysql /var/lib/mysql/
+
+ll -lsd /var/run/mysqld/
+
+sudo chown mysql:mysql /var/run/mysqld/
+
+ll -lsd /var/run/mariadb/
+
+sudo mysql:mysql /var/run/mariadb/
+
+sudo systemctl start mariadb
+
+sudo systemctl status mariadb           <-------------you will see now it is 'Active'
