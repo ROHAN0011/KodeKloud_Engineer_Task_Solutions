@@ -6,10 +6,15 @@ yum install selinux* -y
 
 sestatus
 
-cat /etc/selinux/config | grep SELINUX
+cat /etc/selinux/config | grep SELINUX        <---------in output we can see SELINUX=enforcing  we have to change this
 
-vi /etc/selinux/config
+vi /etc/selinux/config                        <---------using vi editor we can change SELINUX=enforcing to SELINUX=disabled
 
-cat /etc/selinux/config | grep SELINUX
+cat /etc/selinux/config | grep SELINUX        <---------we can se updated output SELINUX=disabled
 
 sestatus
+
+
+
+
+[NOTE: for vi editor click i from keyboard to enable edit use keyboard arrow keys to control and after editing click ESC (escape key) then SHIFT+: then wq (:wq) then you can exit from vi editor]
