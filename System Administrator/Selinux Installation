@@ -1,6 +1,6 @@
-ssh steve@stapp02
+ssh steve@stapp02                            <---------login to given appserver
 
-sudo su -
+sudo su -                                    <---------rootuser
 
 yum install selinux* -y
 
