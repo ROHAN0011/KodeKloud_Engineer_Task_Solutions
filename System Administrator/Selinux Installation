@@ -1,0 +1,15 @@
+ssh steve@stapp02
+
+sudo su -
+
+yum install selinux* -y
+
+sestatus
+
+cat /etc/selinux/config | grep SELINUX
+
+vi /etc/selinux/config
+
+cat /etc/selinux/config | grep SELINUX
+
+sestatus
