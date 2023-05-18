@@ -8,11 +8,11 @@ yum install ntp -y
 
 rpm -qa | grep ntp
 
-vi /etc/ntp.conf
+vi /etc/ntp.conf                             ---------->add the given server name in server list using vi editor
 
-cat /etc/ntp.conf | grep ntp.org     sg.pool
+cat /etc/ntp.conf | grep ntp.org             ---------->ntp.org is given server name to add
 
-ntpstat  (unable to talk to NTP daemon.Is it running?)
+ntpstat                                      ---------->(unable to talk to NTP daemon.Is it running?)
 
 systemctl status ntpd
 
