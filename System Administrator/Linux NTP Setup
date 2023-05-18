@@ -1,0 +1,25 @@
+ssh
+
+sudo su -
+
+rpm -qa | grep ntp
+
+yum install ntp -y
+
+rpm -qa | grep ntp
+
+vi /etc/ntp.conf
+
+cat /etc/ntp.conf | grep ntp.org     sg.pool
+
+ntpstat  (unable to talk to NTP daemon.Is it running?)
+
+systemctl status ntpd
+
+systemctl enable ntpd
+
+systemctl start ntpd
+
+systemctl status ntpd
+
+ntpstat
