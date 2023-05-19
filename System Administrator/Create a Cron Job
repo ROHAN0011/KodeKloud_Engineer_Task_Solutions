@@ -1,4 +1,4 @@
-ssh tony@atapp01                   ------->login to appserver 1 using given user credentials
+ssh tony@stapp01                   ------->login to appserver 1 using given user credentials
 
 sudo su - 
 
