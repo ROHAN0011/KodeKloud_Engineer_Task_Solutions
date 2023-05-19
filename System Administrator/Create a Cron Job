@@ -1,16 +1,20 @@
-ssh tony@atapp01
+ssh tony@atapp01                   ------->login to appserver 1 using given user credentials
+
 sudo su - 
 
 yum install cronie -y
-///yum install cronie && systemctl start crond.service && systemctl status crond.service
 
 systemctl start crond.service
 
-systemctl status crond.service
+systemctl status crond.service     -------> (OR insted of above 3 commands you can try this command) yum install cronie && systemctl start crond.service && systemctl status crond.service
 
-crontab -e  (add cron)
+crontab -e                         ------->editor will open you have to add given cron in editor eg.    */5 * * * * echo hello >/tmp/cron_text      
 
 crontab -l
-////crontab -u root -l
 
 ll /tmp/
+
+
+
+
+[NOTE : You have to repeat above commands for 3 app servers]
