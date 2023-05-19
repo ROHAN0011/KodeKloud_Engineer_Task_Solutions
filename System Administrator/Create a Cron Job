@@ -1,0 +1,16 @@
+ssh tony@atapp01
+sudo su - 
+
+yum install cronie -y
+///yum install cronie && systemctl start crond.service && systemctl status crond.service
+
+systemctl start crond.service
+
+systemctl status crond.service
+
+crontab -e  (add cron)
+
+crontab -l
+////crontab -u root -l
+
+ll /tmp/
