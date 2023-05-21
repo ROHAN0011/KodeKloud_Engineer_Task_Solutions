@@ -2,7 +2,7 @@
 
 [switch to root user]
 
-ll /home/   (BSD.txt in list)
+ll /home/ 
 
 cat /home/BSD.txt | grep code (given word)code
 
