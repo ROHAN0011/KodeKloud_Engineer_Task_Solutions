@@ -4,7 +4,7 @@
 
 ll /home/ 
 
-cat /home/BSD.txt | grep code (given word)code
+cat /home/BSD.txt | grep code                               ------------->'BSD.txt' is given text file name and 'code' is given word
 
 sed '/\<code\>/d' /home/BSD.txt > /home/BSD_DELETE.txt
 
