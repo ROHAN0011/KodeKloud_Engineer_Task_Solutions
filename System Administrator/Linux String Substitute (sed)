@@ -10,9 +10,9 @@ sed '/\<code\>/d' /home/BSD.txt > /home/BSD_DELETE.txt
 
 cat /home/BSD_DELETE.txt |grep code
 
-cat /home/BSD.txt |grep from   (words to replace 'from' 'is')
+cat /home/BSD.txt |grep from   
 
-sed 's/\band\b/is/g' /home/BSD.txt > /home/BSD_REPLACE.txt
+sed 's/\band\b/is/g' /home/BSD.txt > /home/BSD_REPLACE.txt   ------------>(given words to replace 'from' 'is')
 
 cat /home/BSD_REPLACE.txt |grep from
 
