@@ -1,3 +1,7 @@
+[first login to given user/appserver]
+
+[switch to root user]
+
 ll /home/   (BSD.txt in list)
 
 cat /home/BSD.txt | grep code (given word)code
