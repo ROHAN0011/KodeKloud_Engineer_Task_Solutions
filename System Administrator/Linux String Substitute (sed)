@@ -1,0 +1,15 @@
+ll /home/   (BSD.txt in list)
+
+cat /home/BSD.txt | grep code (given word)code
+
+sed '/\<code\>/d' /home/BSD.txt > /home/BSD_DELETE.txt
+
+cat /home/BSD_DELETE.txt |grep code
+
+cat /home/BSD.txt |grep from   (words to replace 'from' 'is')
+
+sed 's/\band\b/is/g' /home/BSD.txt > /home/BSD_REPLACE.txt
+
+cat /home/BSD_REPLACE.txt |grep from
+
+cat /home/BSD_REPLACE.txt |grep is
