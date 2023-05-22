@@ -1,6 +1,6 @@
 ssh clint@stbkp01                               ------------>login to backup server 
 
-sudo su -
+sudo su -                                       ------------>switch to root user
 
 cat /root/nautilus.xml | grep This              ------------>OR( cat /root/nautilus.xml | grep This | wc -l )
 
