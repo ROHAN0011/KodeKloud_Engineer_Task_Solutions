@@ -1,0 +1,11 @@
+ssh clint@stbkp01
+
+sudo su -
+
+cat /root/nautilus.xml | grep This              ------------>OR( cat /root/nautilus.xml | grep This | wc -l )
+
+sed -i 's/This/Cloud/g' /root/nautilus.xml      ------------>here "This" will be replaced by "Cloud"    [in given command s/ means substitute and /g means global replace os all occurrence]
+
+cat /root/nautilus.xml | grep This              ------------>you will not get any output
+
+cat /root/nautilus.xml | grep Cloud             ------------>Output visible
