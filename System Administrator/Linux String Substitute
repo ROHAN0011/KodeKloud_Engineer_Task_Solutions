@@ -1,4 +1,4 @@
-ssh clint@stbkp01
+ssh clint@stbkp01                               ------------>login to backup server 
 
 sudo su -
 
