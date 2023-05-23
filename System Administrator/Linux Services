@@ -1,6 +1,4 @@
-ssh tony@stapp01
-
-sudo su -
+(login to app server and switch to root)
 
 yum install squid -y
 
