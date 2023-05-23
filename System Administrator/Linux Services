@@ -1,0 +1,13 @@
+ssh tony@stapp01
+
+sudo su -
+
+yum install squid -y
+
+systemctl status squid
+
+systemctl start squid
+
+systemctl enable squid
+
+systemctl status squid
