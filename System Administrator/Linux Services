@@ -11,3 +11,7 @@ systemctl start squid
 systemctl enable squid
 
 systemctl status squid
+
+
+
+[Note : You have to do this in all app servers]
