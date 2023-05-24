@@ -1,21 +1,18 @@
 whoami                   -------------->Enter this command without login to any app server to know the host user
 
 ssh-keygen -t rsa        -------------->Generating key
-Enter file in which to save the key (/home/thor/.ssh/id_rsa): 
-Enter passphrase (empty for no passphrase):
-(passpharse)
 
-cat /tmp/p
 
-ssh-copy-id tony@stapp01 -y
+       [NOTE : After entering above command below things will be asked to you don't type anything jusk click enter
+                 Enter file in which to save the key (/home/thor/.ssh/id_rsa): 
+                 Enter passphrase (empty for no passphrase):
+       ]
 
-whoami
-
-exit
+         
+ssh-copy-id tony@stapp01
 
 ssh-copy-id steve@stapp02
 
-yes pass
-
 ssh-copy-id banner@stapp03
 
+[ After that you can able to login to all above servers (passwordlessly) ]
