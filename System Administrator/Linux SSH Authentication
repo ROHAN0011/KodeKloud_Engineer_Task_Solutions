@@ -1,0 +1,21 @@
+whoami
+
+ssh-keygen -t rsa
+Enter file in which to save the key (/home/thor/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase):
+(passpharse)
+
+cat /tmp/p
+
+ssh-copy-id tony@stapp01 -y
+
+whoami
+
+exit
+
+ssh-copy-id steve@stapp02
+
+yes pass
+
+ssh-copy-id banner@stapp03
+
