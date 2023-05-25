@@ -2,7 +2,7 @@ cat /etc/passwd | grep rohan
 
 [Login to given app server and swith to root user]
 
-useradd -M rohan
+useradd -M rohan              ---------->adding 'rohan' as user without home (root directory)
 cd /home
 ll
 id rohan
