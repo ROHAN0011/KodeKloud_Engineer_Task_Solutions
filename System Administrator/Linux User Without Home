@@ -5,5 +5,3 @@ useradd -M rohan              ---------->adding 'rohan' as user without home (ro
 ll /home/
 
 id rohan
-
-
