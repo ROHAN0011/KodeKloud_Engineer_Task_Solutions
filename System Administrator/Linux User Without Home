@@ -1,0 +1,15 @@
+cat /etc/passwd | grep rohan
+
+
+
+useradd -M rohan
+cd /home
+ll
+id rohan
+
+
+
+cat /etc/passwd | grep rohan
+
+ll /home/
+
