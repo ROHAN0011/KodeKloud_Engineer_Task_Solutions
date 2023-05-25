@@ -1,6 +1,6 @@
 cat /etc/passwd | grep rohan
 
-
+[Login to given app server and swith to root user]
 
 useradd -M rohan
 cd /home
