@@ -1,8 +1,6 @@
-ssh steve@stapp02 
+[Login to given app server and switch to root user]
 
 cat /etc/resolv.conf
-
-//ping google.com
 
 vi /etc/resolv.conf  (adding nameserver 8.8.8.8)
 
