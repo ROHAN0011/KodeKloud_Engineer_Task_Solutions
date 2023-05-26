@@ -1,4 +1,4 @@
-ssh 
+ssh steve@stapp02 
 
 cat /etc/resolv.conf
 
