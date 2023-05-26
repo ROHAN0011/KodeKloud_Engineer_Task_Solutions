@@ -2,6 +2,6 @@
 
 cat /etc/resolv.conf
 
-vi /etc/resolv.conf  (adding nameserver 8.8.8.8)
+vi /etc/resolv.conf      ------------->add      nameserver 8.8.8.8       in vi editor nameserver list
 
 cat /etc/resolv.conf
