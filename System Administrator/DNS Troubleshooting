@@ -1,0 +1,12 @@
+ssh 
+
+cat /etc/resolv.conf
+
+//ping google.com
+
+vi /etc/resolv.conf  (adding nameserver 8.8.8.8)
+
+cat /etc/resolv.conf
+
+
+
