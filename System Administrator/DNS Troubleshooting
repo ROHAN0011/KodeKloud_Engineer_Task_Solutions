@@ -4,4 +4,4 @@ cat /etc/resolv.conf
 
 vi /etc/resolv.conf      ------------->add      nameserver 8.8.8.8       in vi editor nameserver list
 
-cat /etc/resolv.conf
+cat /etc/resolv.conf     ------------->you can see updated output in list   nameserver 8.8.8.8  (Google DNS server)
