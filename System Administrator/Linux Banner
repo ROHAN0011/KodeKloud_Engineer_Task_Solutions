@@ -16,6 +16,7 @@ sudo scp -r nautilus_banner banner@stapp03:/home/banner
 
 
 
+
 [[=====STEP 2=====]]
 [Login to database server and install oprnssh client then copy nautilus_banner to db server like above three app servers]
 
@@ -29,3 +30,8 @@ exit
 
 sudo scp -r nautilus_banner peter@stdb01:/home/peter
 
+
+
+
+[[=====STEP 3=====]]
+[Login to all 3 app servers and 1 db server then enter given command]
