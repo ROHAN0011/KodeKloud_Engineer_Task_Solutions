@@ -33,6 +33,7 @@ sudo scp -r nautilus_banner peter@stdb01:/home/peter
 
 
 
+
 [[=====STEP 3=====]]
 [Login to all 3 app servers and 1 db server then enter given command]
 
@@ -68,3 +69,9 @@ sudo mv nautilus_banner /etc/motd
 
 exit
 
+
+
+
+
+[[=====STEP 4=====]]
+[This is final step just ssh login to all app servers and db server again. Then you can successfully able to see the NAUTILUS output]
