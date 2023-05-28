@@ -4,13 +4,13 @@
 [Open total 4 terminals for better understanding]
 [Then enter below command in 3 termials for 3 individual app servers]
 
-{Terminal 1}
+{Terminal 1 / App Server 1}
 sudo scp -r nautilus_banner tony@stapp01:/home/tony                 --------->here I entered /home/tony in command as per question you can update it as per your question eg. /tmp
 
-{Terminal 2}
+{Terminal 2 / App Server 2}
 sudo scp -r nautilus_banner tony@stapp01:/home/tony
 
-{Terminal 3}
+{Terminal 3 / App Server 3}
 sudo scp -r nautilus_banner tony@stapp01:/home/tony
 
 
