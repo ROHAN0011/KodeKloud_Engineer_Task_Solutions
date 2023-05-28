@@ -5,6 +5,7 @@
 [Then enter below command in 3 termials for 3 individual app servers]
 
 {Terminal 1}
+sudo scp -r nautilus_banner tony@stapp01
 
 {Terminal 2}
 
