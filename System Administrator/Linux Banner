@@ -1,4 +1,9 @@
-[This beginner level task becomes confusing/hard if not executed in proper way]
+[This beginner level task becomes confusing/hard if not executed in proper way. Follow below steps to make it successful]
+
+{STEP 1}
+[Open total 4 terminals for better understanding]
+[Then enter]
+
 
 ll -lsd /tmp/nautilus_banner    (given template location on jump host)
 
