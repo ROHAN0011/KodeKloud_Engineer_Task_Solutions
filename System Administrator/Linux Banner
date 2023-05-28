@@ -5,7 +5,7 @@
 
 
 {Terminal 1 / App Server 1}
-sudo scp -r nautilus_banner tony@stapp01:/home/tony                 --------->Here, I entered /home in command as per question (template location) you can update it as per your question eg. /tmp
+sudo scp -r nautilus_banner tony@stapp01:/home/tony                 --------->NOTE: Here, I entered /home in commands as per question (template location) you can update it as per your question eg. /tmp
 
 {Terminal 2 / App Server 2}
 sudo scp -r nautilus_banner steve@stapp02:/home/steve
