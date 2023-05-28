@@ -1,6 +1,6 @@
 [This beginner level task becomes confusing/hard if not executed in proper way. Follow below steps to make it successful]
 
-{---STEP 1---}
+[---STEP 1---]
 [Open total 4 terminals for better understanding.Then enter below command in individual termials]
 
 
@@ -14,6 +14,7 @@ sudo scp -r nautilus_banner steve@stapp02:/home/steve
 sudo scp -r nautilus_banner banner@stapp03:/home/banner
 
 
+[---STEP 2---]
 {Terminal 4}
 
 ll -lsd /tmp/nautilus_banner    (given template location on jump host)
