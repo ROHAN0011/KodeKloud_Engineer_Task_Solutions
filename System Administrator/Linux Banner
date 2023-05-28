@@ -46,7 +46,7 @@ exit
 
 
 {Termial 2 / App Server 2}
-ssh tony@stapp01
+ssh steve@stapp02
 
 sudo mv nautilus_banner /etc/motd
 
@@ -54,7 +54,7 @@ exit
 
 
 {Termial 3 / App Server 3}
-ssh tony@stapp01
+ssh banner@stapp03
 
 sudo mv nautilus_banner /etc/motd
 
@@ -62,7 +62,7 @@ exit
 
 
 {Termial 4 / DB Server 1}
-ssh tony@stapp01
+ssh peter@stdb01
 
 sudo mv nautilus_banner /etc/motd
 
