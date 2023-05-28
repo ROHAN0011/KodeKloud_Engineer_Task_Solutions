@@ -17,7 +17,14 @@ sudo scp -r nautilus_banner banner@stapp03:/home/banner
 
 
 [---STEP 2---]
-{Terminal 4}
+[Login to database server and install oprnssh client then copy nautilus_banner to db server like above three app servers]
+
+
+{Terminal 4 / DB Server 1}
+ssh peter@stdb01
+
+sudo yum install openssh-clients -y
+
 
 ll -lsd /tmp/nautilus_banner    (given template location on jump host)
 
