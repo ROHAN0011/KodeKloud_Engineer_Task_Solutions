@@ -1,3 +1,5 @@
+[This beginner level task becomes confusing/hard if not executed in proper way]
+
 ll -lsd /tmp/nautilus_banner    (given template location on jump host)
 
 scp -r /home/thor/nautilus_banner tony@stapp01:/tmp
