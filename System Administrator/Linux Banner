@@ -6,11 +6,11 @@
 
 {Terminal 1}
 
-{Terminal 1}
+{Terminal 2}
 
-{Terminal 1}
+{Terminal 3}
 
-{Terminal 1}
+{Terminal 4}
 
 ll -lsd /tmp/nautilus_banner    (given template location on jump host)
 
