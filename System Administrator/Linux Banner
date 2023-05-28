@@ -75,3 +75,19 @@ exit
 
 [[=====STEP 4=====]]
 [This is final step just ssh login to all app servers and db server again. Then you can successfully able to see the NAUTILUS output]
+
+
+
+
+
+
+
+///FINAL NOTE: In this lab multiple times asked for passwords in multiple terminals/commands. So, Remember to put right passwords in right places. We have to put total 5 passwords in this lab are as follows :
+
+thor   ---> mjolnir123   (Jump Server)
+tony   ---> Ir0nM@n      (App Server 1)
+steve  ---> Am3ric@      (App Server 2)
+banner ---> BigGr33n     (App Server 3)
+peter  ---> Sp!dy        (DB server 1)
+
+///
