@@ -8,8 +8,11 @@
 sudo scp -r nautilus_banner tony@stapp01:/home/tony                 --------->here I entered /home/tony in command as per question you can update it as per your question eg. /tmp
 
 {Terminal 2}
+sudo scp -r nautilus_banner tony@stapp01:/home/tony
 
 {Terminal 3}
+sudo scp -r nautilus_banner tony@stapp01:/home/tony
+
 
 {Terminal 4}
 
