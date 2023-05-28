@@ -14,6 +14,8 @@ sudo scp -r nautilus_banner steve@stapp02:/home/steve
 sudo scp -r nautilus_banner banner@stapp03:/home/banner
 
 
+
+
 [---STEP 2---]
 {Terminal 4}
 
