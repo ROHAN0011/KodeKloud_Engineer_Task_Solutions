@@ -1,17 +1,17 @@
 [This beginner level task becomes confusing/hard if not executed in proper way. Follow below steps to make it successful]
 
 {STEP 1}
-[Open total 4 terminals for better understanding]
-[Then enter below command in 3 termials for 3 individual app servers]
+[Open total 4 terminals for better understanding.Then enter below command in individual termials]
+
 
 {Terminal 1 / App Server 1}
-sudo scp -r nautilus_banner tony@stapp01:/home/tony                 --------->here I entered /home/tony in command as per question you can update it as per your question eg. /tmp
+sudo scp -r nautilus_banner tony@stapp01:/home/tony                 --------->Here, I entered /home/tony in command as per question you can update it as per your question eg. /tmp
 
 {Terminal 2 / App Server 2}
-sudo scp -r nautilus_banner tony@stapp01:/home/tony
+sudo scp -r nautilus_banner steve@stapp02:/home/steve
 
 {Terminal 3 / App Server 3}
-sudo scp -r nautilus_banner tony@stapp01:/home/tony
+sudo scp -r nautilus_banner banner@stapp03:/home/banner
 
 
 {Terminal 4}
