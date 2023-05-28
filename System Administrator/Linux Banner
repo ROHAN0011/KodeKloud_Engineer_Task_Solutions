@@ -5,7 +5,7 @@
 [Then enter below command in 3 termials for 3 individual app servers]
 
 {Terminal 1}
-sudo scp -r nautilus_banner tony@stapp01:/home/tony
+sudo scp -r nautilus_banner tony@stapp01:/home/tony                 --------->here I entered /home/tony in command as per question you can update it as per your question eg. /tmp
 
 {Terminal 2}
 
