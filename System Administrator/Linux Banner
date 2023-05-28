@@ -25,6 +25,7 @@ ssh peter@stdb01
 
 sudo yum install openssh-clients -y
 
+sudo scp -r nautilus_banner peter@stdb01:/home/peter
 
 ll -lsd /tmp/nautilus_banner    (given template location on jump host)
 
