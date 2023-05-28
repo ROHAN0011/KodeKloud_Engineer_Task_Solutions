@@ -25,4 +25,7 @@ ssh peter@stdb01
 
 sudo yum install openssh-clients -y
 
+exit
+
 sudo scp -r nautilus_banner peter@stdb01:/home/peter
+
