@@ -4,6 +4,13 @@
 [Open total 4 terminals for better understanding]
 [Then enter below command in 3 termials for 3 individual app servers]
 
+{Terminal 1}
+
+{Terminal 1}
+
+{Terminal 1}
+
+{Terminal 1}
 
 ll -lsd /tmp/nautilus_banner    (given template location on jump host)
 
