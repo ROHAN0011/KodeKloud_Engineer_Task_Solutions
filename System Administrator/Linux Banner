@@ -36,10 +36,35 @@ sudo scp -r nautilus_banner peter@stdb01:/home/peter
 [[=====STEP 3=====]]
 [Login to all 3 app servers and 1 db server then enter given command]
 
-{Termial 1 / App Server 1}
 
 {Termial 1 / App Server 1}
+ssh tony@stapp01
 
-{Termial 1 / App Server 1}
+sudo mv nautilus_banner /etc/motd
 
-{Termial 1 / App Server 1}
+exit
+
+
+{Termial 2 / App Server 2}
+ssh tony@stapp01
+
+sudo mv nautilus_banner /etc/motd
+
+exit
+
+
+{Termial 3 / App Server 3}
+ssh tony@stapp01
+
+sudo mv nautilus_banner /etc/motd
+
+exit
+
+
+{Termial 4 / DB Server 1}
+ssh tony@stapp01
+
+sudo mv nautilus_banner /etc/motd
+
+exit
+
