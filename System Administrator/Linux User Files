@@ -1,0 +1,25 @@
+sudo su -
+
+ll /home/userdata   (directory path where path copied)
+
+ll /media 
+
+find /home/userdata/ -type f -user kristy | wc -l
+
+find /home/userdata/ -type f -user kristy -exec cp --parents {} /media \;
+
+ll /media/home/userdata/
+
+
+
+cd /home/userdata/
+
+find . -user rohan 
+
+find . -user rohan | cpio -pdm /media (to copy last)
+
+ll /media/
+
+
+
+Linux User Files
