@@ -1,6 +1,6 @@
 [Login to given app serve and switch to root user]
 
-ll /home/userdata   (directory path where path copied)
+ll /home/userdata                     (given path where they copied data mistakenly)
 
 ll /media 
 
