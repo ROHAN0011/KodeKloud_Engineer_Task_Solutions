@@ -1,4 +1,4 @@
-sudo su -
+[Login to given app serve and switch to root user]
 
 ll /home/userdata   (directory path where path copied)
 
