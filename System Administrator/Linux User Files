@@ -1,12 +1,12 @@
 [Login to given app serve and switch to root user]
 
-ll /home/userdata                                            ---------->(given path where they copied data mistakenly)
+ll /home/userdata                                                              ---------->(given path where they copied data mistakenly)
 
 ll /media 
 
-find /home/userdata/ -type f -user rohan | wc -l       
+find /home/userdata/ -type f -user rohan | wc -l                               ---------->rohan is user 
 
-find /home/userdata/ -type f -user rohan -exec cp --parents {} /media \;
+find /home/userdata/ -type f -user rohan -exec cp --parents {} /media \;       ---------->media is the path/location where actully we have to copy the data 
 
 ll /media/home/userdata/
 
