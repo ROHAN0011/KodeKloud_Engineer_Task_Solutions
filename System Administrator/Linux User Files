@@ -12,14 +12,14 @@ ll /media/home/userdata/
 
 
 
+
+
+[another method]
+
 cd /home/userdata/
 
 find . -user rohan 
 
-find . -user rohan | cpio -pdm /media (to copy last)
+find . -user rohan | cpio -pdm /media 
 
 ll /media/
-
-
-
-Linux User Files
