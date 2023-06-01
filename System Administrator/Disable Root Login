@@ -2,8 +2,8 @@
 
 cat /etc/ssh/sshd_config | grep PermitRoot
 
-vi /etc/ssh/sshd_config
+vi /etc/ssh/sshd_config                          ---------->edit & set #PermitRootLogin yes  to  PermitRootLogin no
 
-cat /etc/ssh/sshd_config | grep PermitRoot    (permitrootlogin no)
+cat /etc/ssh/sshd_config | grep PermitRoot
 
 systemctl restart sshd && systemctl status sshd
