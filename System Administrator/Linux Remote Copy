@@ -1,3 +1,6 @@
 ll /tmp/nautilus.txt.gpg                                ----------->Given file name
 
 sudo scp /tmp/nautilus.txt.gpg banner@stapp03:/tmp
+
+
+[Login to given app server then switch to root]
