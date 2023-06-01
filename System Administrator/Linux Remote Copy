@@ -7,3 +7,5 @@ sudo scp /tmp/nautilus.txt.gpg banner@stapp03:/tmp
 
 
 mv /tmp/nautilus.txt.gpg /home/nfsdata/                  ---------->Given location to move the file
+
+ll /home/nfsdata                                         ---------->You can see the given file is moved successfully
