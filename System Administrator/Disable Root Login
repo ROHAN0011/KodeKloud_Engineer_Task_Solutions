@@ -1,0 +1,10 @@
+systemctl status sshd
+
+cat /etc/ssh/sshd_config | grep PermitRoot
+
+vi /etc/ssh/sshd_config
+
+cat /etc/ssh/sshd_config | grep PermitRoot    (permitrootlogin no)
+
+systemctl restart sshd && systemctl status sshd
+
