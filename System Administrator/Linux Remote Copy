@@ -4,3 +4,6 @@ sudo scp /tmp/nautilus.txt.gpg banner@stapp03:/tmp
 
 
 [Login to given app server then switch to root]
+
+
+mv /tmp/nautilus.txt.gpg /home/nfsdata/                  ---------->Given location to move the file
