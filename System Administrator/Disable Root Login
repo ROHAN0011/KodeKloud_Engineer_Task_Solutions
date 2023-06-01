@@ -1,4 +1,4 @@
-systemctl status sshd
+[Login to given app server and switch to root user]
 
 cat /etc/ssh/sshd_config | grep PermitRoot
 
@@ -7,4 +7,3 @@ vi /etc/ssh/sshd_config
 cat /etc/ssh/sshd_config | grep PermitRoot    (permitrootlogin no)
 
 systemctl restart sshd && systemctl status sshd
-
