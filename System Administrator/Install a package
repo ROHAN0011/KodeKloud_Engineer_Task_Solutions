@@ -1,7 +1,3 @@
-Install a package
-
-
-
 [login to app server1 then switch to root]
 
 rpm -qa |grep samba  (samba is given package name)
