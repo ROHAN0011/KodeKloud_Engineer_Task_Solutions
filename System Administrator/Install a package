@@ -1,6 +1,6 @@
-[login to app server1 then switch to root]
+[Login to app server1 then switch to root]
 
-rpm -qa |grep samba  (samba is given package name)
+rpm -qa |grep samba                                  ------------->(samba is given package name)
 
 yum install samba -y
 
