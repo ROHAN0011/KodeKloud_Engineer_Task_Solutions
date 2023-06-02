@@ -6,7 +6,9 @@ yum install samba -y
 
 rpm -qa |grep samba                                  ------------->(Installed package will visible)
 
+
 [logout till jump_host or open new terminal]
+
 
 ssh -t steve@stapp02 "sudo yum install samba -y "    ------------->(installing package in app server2)
 
