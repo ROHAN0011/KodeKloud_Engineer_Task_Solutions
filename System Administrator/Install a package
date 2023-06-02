@@ -2,7 +2,7 @@
 
 rpm -qa |grep samba                                  ------------->(samba is given package name)
 
-yum install samba -y
+yum install samba -y                                 ------------->(Installing package in app server1)
 
 rpm -qa |grep samba                                  ------------->(Installed package will visible)
 
@@ -10,7 +10,7 @@ rpm -qa |grep samba                                  ------------->(Installed pa
 [logout till jump_host or open new terminal]
 
 
-ssh -t steve@stapp02 "sudo yum install samba -y "    ------------->(installing package in app server2)
+ssh -t steve@stapp02 "sudo yum install samba -y "    ------------->(Installing package in app server2)
 
 ssh -t steve@stapp02 "sudo rpm -qa |grep samba "
 
