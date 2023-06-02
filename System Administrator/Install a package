@@ -8,7 +8,7 @@ rpm -qa |grep samba                                  ------------->(Installed pa
 
 [logout till jump_host or open new terminal]
 
-ssh -t steve@stapp02 "sudo yum install samba -y "  (installing package in app server2)
+ssh -t steve@stapp02 "sudo yum install samba -y "    ------------->(installing package in app server2)
 
 ssh -t steve@stapp02 "sudo rpm -qa |grep samba "
 
