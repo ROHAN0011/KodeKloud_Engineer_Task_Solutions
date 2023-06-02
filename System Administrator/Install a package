@@ -4,7 +4,7 @@ rpm -qa |grep samba                                  ------------->(samba is giv
 
 yum install samba -y
 
-rpm -qa |grep samba  (installed package will visible)
+rpm -qa |grep samba                                  ------------->(Installed package will visible)
 
 [logout till jump_host or open new terminal]
 
