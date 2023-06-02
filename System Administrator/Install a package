@@ -16,6 +16,6 @@ ssh -t steve@stapp02 "sudo rpm -qa |grep samba "
 
 [logout till jump_host or open new terminal]
 
-ssh -t banner@stapp03 "sudo yum install samba -y "  (installing package in app server3)
+ssh -t banner@stapp03 "sudo yum install samba -y "   ------------->(Installing package in app server3)
 
 ssh -t banner@stapp03 "sudo rpm -qa |grep samba "
