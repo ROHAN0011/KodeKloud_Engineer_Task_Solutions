@@ -1,3 +1,5 @@
 [Login to given app server and then switch to root user]
 
 systemctl status httpd
+
+cat /etc/httpd/conf/httpd.conf  |grep ServerTokens
