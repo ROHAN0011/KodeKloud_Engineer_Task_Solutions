@@ -17,3 +17,5 @@ cat /etc/httpd/conf/httpd.conf  |grep ServerSignature
 cat /etc/httpd/conf/httpd.conf  |grep Indexes
 
 systemctl start httpd
+
+systemctl status httpd
