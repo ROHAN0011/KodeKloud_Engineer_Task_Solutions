@@ -30,4 +30,4 @@ systemctl status httpd
 
 curl -I http://stapp01:8080
 
-curl -I http://stapp01:8080/media
+curl -I http://stapp01:8080/media          -----------> given path
