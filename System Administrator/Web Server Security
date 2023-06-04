@@ -10,10 +10,10 @@ cat /etc/httpd/conf/httpd.conf  |grep Indexes
 
 vi /etc/httpd/conf/httpd.conf
 
-[After opening vi editor find & remove Indexes word from the line --> Option Indexes FollowSymLinks 
-After that at ending add below two lines,
-ServerSignature Off 
-ServerTokens Prod ]
+[ After opening vi editor find & remove Indexes word from the line --> Option Indexes FollowSymLinks 
+  After that at ending of vi editor add below two lines and come outside,
+  ServerSignature Off 
+  ServerTokens Prod ]
 
 cat /etc/httpd/conf/httpd.conf  |grep ServerTokens
 
