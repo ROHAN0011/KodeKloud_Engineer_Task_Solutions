@@ -10,6 +10,8 @@ cat /etc/httpd/conf/httpd.conf  |grep Indexes
 
 vi /etc/httpd/conf/httpd.conf
 
+[After opening vi editor Option Indexes FollowSymLinks ServerSignature Off ServerTokens Prod ]
+
 cat /etc/httpd/conf/httpd.conf  |grep ServerTokens
 
 cat /etc/httpd/conf/httpd.conf  |grep ServerSignature
