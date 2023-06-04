@@ -5,3 +5,5 @@ systemctl status httpd
 cat /etc/httpd/conf/httpd.conf  |grep ServerTokens
 
 cat /etc/httpd/conf/httpd.conf  |grep ServerSignature
+
+cat /etc/httpd/conf/httpd.conf  |grep Indexes
