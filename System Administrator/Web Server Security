@@ -19,3 +19,5 @@ cat /etc/httpd/conf/httpd.conf  |grep Indexes
 systemctl start httpd
 
 systemctl status httpd
+
+curl -I http://stapp01:8080
