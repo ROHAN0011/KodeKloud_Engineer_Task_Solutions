@@ -9,3 +9,5 @@ cat /etc/httpd/conf/httpd.conf  |grep ServerSignature
 cat /etc/httpd/conf/httpd.conf  |grep Indexes
 
 vi /etc/httpd/conf/httpd.conf
+
+cat /etc/httpd/conf/httpd.conf  |grep ServerTokens
