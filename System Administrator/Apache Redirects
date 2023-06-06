@@ -3,10 +3,10 @@
 
  rpm -qa |grep httpd
  
- cat /etc/httpd/conf/httpd.conf |grep Listen
+ cat /etc/httpd/conf/httpd.conf |grep Listen                 ----->you can see current Listen port number e.g Listen 8080
  
  cat /etc/httpd/conf/httpd.conf |grep redirect
  
- vi /etc/httpd/conf/httpd.conf
+ vi /etc/httpd/conf/httpd.conf                               ------> change the 'Listen' port number as per given task
  
- cat /etc/httpd/conf/httpd.conf |grep Listen
+ cat /etc/httpd/conf/httpd.conf |grep Listen                 ------> Listen port number should be updated as per task
