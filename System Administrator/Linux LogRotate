@@ -8,3 +8,6 @@ cat /etc/logrotate.d/squid       ----->can see the content
 
 vi /etc/logrotate.d/squid        ----->change it as per given task   e.g  weekly         >-to->       monthly
                                                                           rotate 5                    rotate 3
+
+cat /etc/logrotate.d/squid       ----->check it is updated or not
+
