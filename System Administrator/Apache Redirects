@@ -30,7 +30,8 @@ systemctl restart httpd
 
 systemctl status  httpd
 
-curl http://stapp02.stratos.xfusioncorp.com:5003/
+
+curl http://stapp02.stratos.xfusioncorp.com:5003/                    -----> ! Remember to change the port number and paths as per given task
 
 curl http://www.stapp02.stratos.xfusioncorp.com:5003
 
