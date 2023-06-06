@@ -1,1 +1,3 @@
+[Login to given app server and switch to root user]
+
 find /var/www/html/beta -type f -name '*.php' -exec cp --parents {} /beta \;
