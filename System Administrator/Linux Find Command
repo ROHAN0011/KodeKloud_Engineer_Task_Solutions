@@ -1,3 +1,6 @@
 [Login to given app server and switch to root user]
 
-find /var/www/html/beta -type f -name '*.php' -exec cp --parents {} /beta \;
+
+find /var/www/html/beta -type f -name '*.css' -exec cp --parents {} /beta \;
+
+[Note : change the path and the file extention type in above command]
