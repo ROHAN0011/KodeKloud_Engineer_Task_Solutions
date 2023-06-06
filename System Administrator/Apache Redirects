@@ -29,3 +29,11 @@
 systemctl restart httpd
 
 systemctl status  httpd
+
+curl http://stapp02.stratos.xfusioncorp.com:5003/
+
+curl http://www.stapp02.stratos.xfusioncorp.com:5003
+
+curl http://www.stapp02.stratos.xfusioncorp.com:5003/blog/
+
+curl http://www.stapp02.stratos.xfusioncorp.com:5003/news/
