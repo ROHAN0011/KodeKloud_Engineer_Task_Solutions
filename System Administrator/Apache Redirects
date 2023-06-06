@@ -1,1 +1,12 @@
 [Login to given app server and switch to root user]
+
+
+ rpm -qa |grep httpd
+ 
+ cat /etc/httpd/conf/httpd.conf |grep Listen
+ 
+ cat /etc/httpd/conf/httpd.conf |grep redirect
+ 
+ vi /etc/httpd/conf/httpd.conf
+ 
+ cat /etc/httpd/conf/httpd.conf |grep Listen
