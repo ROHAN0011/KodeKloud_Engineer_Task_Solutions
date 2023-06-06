@@ -24,3 +24,8 @@
       Redirect 301 / http://www.stapp02.stratos.xfusioncorp.com:5003/
       </VirtualHost>
  ]
+
+
+systemctl restart httpd
+
+systemctl status  httpd
