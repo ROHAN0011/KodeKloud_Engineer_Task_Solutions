@@ -11,3 +11,6 @@ vi /etc/logrotate.d/squid        ----->change it as per given task   e.g  weekly
 
 cat /etc/logrotate.d/squid       ----->check it is updated or not
 
+systemctl start squid
+
+systemctl status squid
