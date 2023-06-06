@@ -1,1 +1,3 @@
 [Login to all app servers individually in diffrent terminals switch to root and then enter below commands in each terminals]
+
+yum install squid -y             ------>squid is given package to install 
