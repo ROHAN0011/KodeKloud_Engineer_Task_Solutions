@@ -5,3 +5,6 @@ yum install squid -y             ------>squid is given package to install
 ll /etc/logrotate.d/
 
 cat /etc/logrotate.d/squid       ----->can see the content
+
+vi /etc/logrotate.d/squid        ----->change it as per given task   e.g  weekly         >-to->       monthly
+                                                                          rotate 5                    rotate 3
