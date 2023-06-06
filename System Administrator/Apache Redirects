@@ -5,8 +5,22 @@
  
  cat /etc/httpd/conf/httpd.conf |grep Listen                 ----->you can see current Listen port number e.g Listen 8080
  
- cat /etc/httpd/conf/httpd.conf |grep redirect
- 
  vi /etc/httpd/conf/httpd.conf                               ------> change the 'Listen' port number as per given task
  
  cat /etc/httpd/conf/httpd.conf |grep Listen                 ------> Listen port number should be updated as per task
+ 
+ vi /etc/httpd/conf.d/main.conf
+ 
+ 
+ [  Paste below code in vi editor and change the port numbers and paths as per given task:-
+ 
+      <VirtualHost *:5003>
+      ServerName www.stapp02.stratos.xfusioncorp.com:5003/blog/
+      Redirect 302 /blog/ http://www.stapp02.stratos.xfusioncorp.com:5003/news/
+      </VirtualHost>
+ 
+      <VirtualHost *:5003>
+      ServerName stapp02.stratos.xfusioncorp.com
+      Redirect 301 / http://www.stapp02.stratos.xfusioncorp.com:5003/
+      </VirtualHost>
+ ]
