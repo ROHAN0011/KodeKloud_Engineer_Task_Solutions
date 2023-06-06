@@ -3,3 +3,5 @@
 yum install squid -y             ------>squid is given package to install 
 
 ll /etc/logrotate.d/
+
+cat /etc/logrotate.d/squid       ----->can see the content
