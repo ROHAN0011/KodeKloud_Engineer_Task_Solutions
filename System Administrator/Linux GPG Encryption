@@ -1,5 +1,7 @@
 ssh natasha@ststor01
 
+sudo su -                      ---------->Logged in to given storage server and switched to root
+
 cd /home/
 ll
 
