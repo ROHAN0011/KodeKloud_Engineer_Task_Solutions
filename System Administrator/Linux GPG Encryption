@@ -1,6 +1,6 @@
 ssh natasha@ststor01
 
-sudo su -                      ---------->Logged in to given storage server and switched to root
+sudo su -                                                   ------->Logged in to given storage server and switched to root
 
 cd /home/
 ll
@@ -15,8 +15,7 @@ gpg --list-secret-keys
 
 gpg --encrypt -r kodekloud@kodekloud.com --armor < encrypt_me.txt  -o encrypted_me.asc
 
-gpg --decrypt decrypt_me.asc > decrypted_me.txt
-passphrase
+gpg --decrypt decrypt_me.asc > decrypted_me.txt             ------->[After this command enter the given passphrase given in question]
 
 ll
 
@@ -27,4 +26,3 @@ cat decrypt_me.asc
 cat encrypt_me.txt
 
 cat encrypted_me.asc
-
