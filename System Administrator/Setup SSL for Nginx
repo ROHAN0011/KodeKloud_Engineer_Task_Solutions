@@ -1,9 +1,9 @@
 [Login to given app server and switch to root user]
 
 
-yum install   epel-release -y
+yum install epel-release -y
 
-yum install   nginx -y
+yum install nginx -y
 
 vi /etc/nginx/nginx.conf    (Server_name  IP should be the as per your app server mentioned in the task)
 remove uncomment all #seting for tls enabled server and one more and add server name/ip
