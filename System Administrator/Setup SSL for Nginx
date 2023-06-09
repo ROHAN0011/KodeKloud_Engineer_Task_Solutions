@@ -114,19 +114,16 @@ cp /tmp/nautilus.crt /etc/pki/CA/certs/        ----------\
                                                           |------> (copy the certificates and key then moving them to appropriate location)
 cp /tmp/nautilus.key /etc/pki/CA/private/      ----------/
 
-//can check ll /etc/pki/CA/certs/
-
 ll /usr/share/nginx/html/
 
 rm /usr/share/nginx/html/index.html
 
-vi /usr/share/nginx/html/index.html (add given text)
+vi /usr/share/nginx/html/index.html            --------->add given text in the question
 
-cat /usr/share/nginx/html/index.html (check)
+cat /usr/share/nginx/html/index.html
 
 systemctl start nginx
 
 systemctl status nginx
 
-curl -Ik https://stapp03
-(for final testing you can check this command it in new terminal)
+curl -Ik https://stapp03                       -------->(for final testing you can check this command in the new terminal also with given server)
