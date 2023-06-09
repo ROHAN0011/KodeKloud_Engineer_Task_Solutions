@@ -1,0 +1,34 @@
+yum install   epel-release -y
+
+yum install   nginx -y
+
+vi /etc/nginx/nginx.conf    (Server_name  IP should be the as per your app server mentioned in the task)
+remove uncomment all #seting for tls enabled server and one more and add server name/ip
+ssl_certificate "/etc/pki/CA/certs/nautilus.crt";
+ssl_certificate_key "/etc/pki/CA/private/nautilus.key";
+
+
+cat /etc/nginx/nginx.conf (check)
+
+(Once the configuration is saved then copy the certificates and key)
+
+cp /tmp/nautilus.crt /etc/pki/CA/certs/
+
+cp /tmp/nautilus.key /etc/pki/CA/private/   (moving them to appropriate location)
+
+//can check ll /etc/pki/CA/certs/
+
+ll /usr/share/nginx/html/
+
+rm /usr/share/nginx/html/index.html
+
+vi /usr/share/nginx/html/index.html (add given text)
+
+cat /usr/share/nginx/html/index.html (check)
+
+systemctl start nginx
+
+systemctl status nginx
+
+curl -Ik https://stapp03
+(for final testing you can check this command it in new terminal)
