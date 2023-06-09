@@ -11,7 +11,11 @@ vi /etc/nginx/nginx.conf
 [In vi editor edit/change some required things like server_name (your server's ip address), ssl certificates paths, removing unnecessary # tags]
 
 
-cat /etc/nginx/nginx.conf (check)
+cat /etc/nginx/nginx.conf
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+Your output should be like this. Except server_name/ip:-
+
 
 server {
 
