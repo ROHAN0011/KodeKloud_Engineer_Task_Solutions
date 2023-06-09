@@ -5,10 +5,10 @@ yum install epel-release -y
 
 yum install nginx -y
 
-vi /etc/nginx/nginx.conf    (Server_name  IP should be the as per your app server mentioned in the task)
-remove uncomment all #seting for tls enabled server and one more and add server name/ip
-ssl_certificate "/etc/pki/CA/certs/nautilus.crt";
-ssl_certificate_key "/etc/pki/CA/private/nautilus.key";
+vi /etc/nginx/nginx.conf
+
+
+[In vi editor edit/change some required things like server_name (your server's ip address), ssl certificates paths, removing unnecessary # tags]
 
 
 cat /etc/nginx/nginx.conf (check)
@@ -35,3 +35,115 @@ systemctl status nginx
 
 curl -Ik https://stapp03
 (for final testing you can check this command it in new terminal)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+server {
+
+        listen       80;
+
+        listen       [::]:80;
+
+        server_name  172.16.238.12;
+
+        root         /usr/share/nginx/html;
+
+ 
+
+        # Load configuration files for the default server block.
+
+        include /etc/nginx/default.d/*.conf;
+
+ 
+
+        error_page 404 /404.html;
+
+        location = /404.html {
+
+        }
+
+ 
+
+        error_page 500 502 503 504 /50x.html;
+
+        location = /50x.html {
+
+        }
+
+    }
+
+ 
+
+# Settings for a TLS enabled server.
+
+ 
+
+    server {
+
+        listen       443 ssl http2;
+
+        listen       [::]:443 ssl http2;
+
+        server_name  172.16.238.12;
+
+        root         /usr/share/nginx/html;
+
+        ssl_certificate "/etc/pki/CA/certs/nautilus.crt";
+
+        ssl_certificate_key "/etc/pki/CA/private/nautilus.key";
+
+        ssl_session_cache shared:SSL:1m;
+
+        ssl_session_timeout  10m;
+
+        ssl_ciphers HIGH:!aNULL:!MD5;
+
+        ssl_prefer_server_ciphers on;
+
+ 
+
+#        # Load configuration files for the default server block.
+
+        include /etc/nginx/default.d/*.conf;
+
+ 
+
+        error_page 404 /404.html;
+
+            location = /40x.html {
+
+        }
+
+ 
+
+        error_page 500 502 503 504 /50x.html;
+
+            location = /50x.html {
+
+        }
+
+    }
+
+ 
+
+}
