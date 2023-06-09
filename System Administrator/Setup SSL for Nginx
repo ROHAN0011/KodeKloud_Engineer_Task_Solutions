@@ -13,51 +13,6 @@ vi /etc/nginx/nginx.conf
 
 cat /etc/nginx/nginx.conf (check)
 
-(Once the configuration is saved then copy the certificates and key)
-
-cp /tmp/nautilus.crt /etc/pki/CA/certs/
-
-cp /tmp/nautilus.key /etc/pki/CA/private/   (moving them to appropriate location)
-
-//can check ll /etc/pki/CA/certs/
-
-ll /usr/share/nginx/html/
-
-rm /usr/share/nginx/html/index.html
-
-vi /usr/share/nginx/html/index.html (add given text)
-
-cat /usr/share/nginx/html/index.html (check)
-
-systemctl start nginx
-
-systemctl status nginx
-
-curl -Ik https://stapp03
-(for final testing you can check this command it in new terminal)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 server {
 
         listen       80;
@@ -147,3 +102,27 @@ server {
  
 
 }
+
+
+(Once the configuration is saved then copy the certificates and key)
+
+cp /tmp/nautilus.crt /etc/pki/CA/certs/
+
+cp /tmp/nautilus.key /etc/pki/CA/private/   (moving them to appropriate location)
+
+//can check ll /etc/pki/CA/certs/
+
+ll /usr/share/nginx/html/
+
+rm /usr/share/nginx/html/index.html
+
+vi /usr/share/nginx/html/index.html (add given text)
+
+cat /usr/share/nginx/html/index.html (check)
+
+systemctl start nginx
+
+systemctl status nginx
+
+curl -Ik https://stapp03
+(for final testing you can check this command it in new terminal)
