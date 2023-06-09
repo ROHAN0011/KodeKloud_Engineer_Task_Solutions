@@ -107,12 +107,12 @@ server {
 
 }
 
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
 
-(Once the configuration is saved then copy the certificates and key)
 
-cp /tmp/nautilus.crt /etc/pki/CA/certs/
-
-cp /tmp/nautilus.key /etc/pki/CA/private/   (moving them to appropriate location)
+cp /tmp/nautilus.crt /etc/pki/CA/certs/        ----------\
+                                                          |------> (copy the certificates and key then moving them to appropriate location)
+cp /tmp/nautilus.key /etc/pki/CA/private/      ----------/
 
 //can check ll /etc/pki/CA/certs/
 
