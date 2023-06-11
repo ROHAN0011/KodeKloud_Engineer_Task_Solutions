@@ -3,3 +3,5 @@ ssh clint@stbkp01
 sudo su -                         ---------->Login to backup server and switch to root
 
 systemctl status iptables
+
+ss -tlnp |grep http
