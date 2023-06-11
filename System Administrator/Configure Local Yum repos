@@ -1,3 +1,9 @@
 ssh clint@stbkp01
 
 sudo su -
+
+yum repolist
+
+vi /etc/yum.repos.d/local_yum.repo
+
+cat /etc/yum.repos.d/local_yum.repo
