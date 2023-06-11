@@ -18,3 +18,9 @@ gpgcheck = 0
 ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
 
 cat /etc/yum.repos.d/local_yum.repo
+
+yum repolist
+
+yum install httpd
+
+yum list httpd
