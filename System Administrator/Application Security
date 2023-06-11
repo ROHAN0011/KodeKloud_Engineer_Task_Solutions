@@ -26,3 +26,7 @@ iptables -L --line-numbers
 
 
 [Paste below commands in new terminal/jump_server to validate given ports are reachable]
+
+telnet stbkp01 8088           ----->Given Apache port
+
+telnet stbkp01 8096           ----->Given Nginx port
