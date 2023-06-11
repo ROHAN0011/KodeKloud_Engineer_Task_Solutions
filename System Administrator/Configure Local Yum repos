@@ -1,6 +1,6 @@
 ssh clint@stbkp01
 
-sudo su -
+sudo su -                               --------->Logged in to backup server and switching to root user
 
 yum repolist
 
