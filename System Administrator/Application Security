@@ -11,3 +11,5 @@ ss -tlnp |grep nginx
 systemctl start iptables
 
 systemctl status iptables
+
+iptables -A INPUT -p tcp --dport 8096 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT          ----->(Opening given Nginx port i.e 8096)
