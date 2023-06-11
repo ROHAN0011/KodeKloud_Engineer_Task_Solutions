@@ -23,3 +23,6 @@ iptables -R INPUT 5 -p icmp -j REJECT
 service iptables save
 
 iptables -L --line-numbers
+
+
+[Paste below commands in new terminal/jump_server to validate given ports are reachable]
