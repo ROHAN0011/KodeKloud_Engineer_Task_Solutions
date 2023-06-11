@@ -21,3 +21,5 @@ iptables -L --line-numbers
 iptables -R INPUT 5 -p icmp -j REJECT
 
 service iptables save
+
+iptables -L --line-numbers
