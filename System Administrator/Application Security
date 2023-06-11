@@ -5,3 +5,5 @@ sudo su -                         ---------->Login to backup server and switch t
 systemctl status iptables
 
 ss -tlnp |grep http
+
+ss -tlnp |grep nginx
