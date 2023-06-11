@@ -13,3 +13,5 @@ systemctl start iptables
 systemctl status iptables
 
 iptables -A INPUT -p tcp --dport 8096 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT          ----->(Opening given Nginx port i.e 8096)
+
+iptables -A INPUT -p tcp --dport 8088 -m conntrack --ctstate NEW -j REJECT                      ----->(Blocking Apache port i.e 8088)
