@@ -9,3 +9,5 @@ ss -tlnp |grep http
 ss -tlnp |grep nginx
 
 systemctl start iptables
+
+systemctl status iptables
