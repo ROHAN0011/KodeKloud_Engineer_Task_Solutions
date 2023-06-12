@@ -14,4 +14,4 @@ visudo
 
 su - rohan
 
-sudo cat /etc/sudoers |grep rohan
+sudo cat /etc/sudoers |grep rohan          ------->you will see added script in vi editor will be shown as output
