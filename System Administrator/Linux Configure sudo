@@ -9,3 +9,5 @@ sudo cat /etc/sudoers |grep rohan          ------->Remember: do not enter any pa
 logout
 
 su - rohan
+
+sudo cat /etc/sudoers |grep rohan
