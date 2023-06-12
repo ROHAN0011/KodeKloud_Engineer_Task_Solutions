@@ -9,6 +9,8 @@ sudo cat /etc/sudoers |grep rohan          ------->Remember: do not enter any pa
 logout
 
 visudo
+[Inside vi editor go to last line and add,  given user    ALL=(ALL)   NOPASSWD:ALL    e.g rohan    ALL=(ALL)   NOPASSWD:ALL]
+
 
 su - rohan
 
