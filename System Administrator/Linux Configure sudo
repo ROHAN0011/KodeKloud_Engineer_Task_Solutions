@@ -4,4 +4,6 @@ id rohan                                   ------->rohan is given user in task
 
 su - rohan
 
-sudo cat /etc/sudoers |grep rohan
+sudo cat /etc/sudoers |grep rohan          ------->Remember: do not enter any password for user else click ctrl + C on keyboard to stop
+
+
