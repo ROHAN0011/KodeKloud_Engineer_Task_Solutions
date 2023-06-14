@@ -3,3 +3,9 @@
 yum install httpd -y
 
 vi /etc/httpd/conf/httpd.conf 
+
+[
+Inside vi editor do following changes:-
+Edit the 'Listen' port number as per given in task
+
+]
