@@ -27,3 +27,5 @@ cat /var/www/html/index.html                        -------->see the added text
 systemctl start httpd
 
 systemctl status httpd
+
+curl http://localhost:                              ------->(Add the given port number)
