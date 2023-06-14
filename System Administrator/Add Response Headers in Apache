@@ -21,3 +21,5 @@ cat /etc/httpd/conf/httpd.conf  |grep Listen        -------->you can see Listen 
 cat /etc/httpd/conf/httpd.conf  |grep X             -------->see the added script
 
 vi /var/www/html/index.html                         -------->creating index file and then paste the given text as per task in vi editor
+
+cat /var/www/html/index.html                        -------->see the added text
