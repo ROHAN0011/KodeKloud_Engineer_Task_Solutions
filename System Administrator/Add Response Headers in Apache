@@ -2,4 +2,4 @@
 
 yum install httpd -y
 
-vi / etc/httpd/conf/httpd.conf 
+vi /etc/httpd/conf/httpd.conf 
