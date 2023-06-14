@@ -1,1 +1,3 @@
 [Login to given app server and swith to root]
+
+yum install httpd -y
