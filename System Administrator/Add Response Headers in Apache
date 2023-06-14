@@ -28,6 +28,6 @@ systemctl start httpd
 
 systemctl status httpd
 
-curl http://localhost:                              ------->(hearafter,add the given port number)
+curl http://localhost:                              ------->(Add the given port number)
 
 curl -i http://localhost:
