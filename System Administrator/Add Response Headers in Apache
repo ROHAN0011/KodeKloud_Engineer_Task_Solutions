@@ -8,4 +8,9 @@ vi /etc/httpd/conf/httpd.conf
 Inside vi editor do following changes:-
 Edit the 'Listen' port number as per given in task
 
+Then, go to last line and paste below script (Do some necessary changes in scrift if required)
+
+Header set X-XSS-Protection "1; mode=block"
+Header always append X-Frame-Options SAMEORIGIN
+Header set X-Content-Type-Options nosniff
 ]
