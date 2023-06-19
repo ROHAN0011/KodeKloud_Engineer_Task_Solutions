@@ -19,4 +19,4 @@ systemctl start tomcat
 
 systemctl status tomcat
 
-curl -i http://stapp02:5001         ---->validation
+curl -i http://stapp02:5001                         ---->validation
