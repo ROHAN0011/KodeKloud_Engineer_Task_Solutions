@@ -4,10 +4,12 @@
 vi /scripts/ecommerce_backup.sh
 
 [
-Inside vi editor paste the below script and change it as per task:-
+Inside vi editor paste the below script and change it as per task then save & quit from vi editor:-
 
 #!/bin/bash
 
 zip -r /backup/xfusioncorp_blog.zip /var/www/html/blog
 scp /backup/xfusioncorp_blog.zip clint@stbkp01:/backup
 ]
+
+ssh-keygen
