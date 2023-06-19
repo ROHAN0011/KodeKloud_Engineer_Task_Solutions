@@ -21,3 +21,5 @@ ssh clint@stbkp01
 logout
 
 sh ecommerce_backup.sh
+
+ssh clint@stbkp01
