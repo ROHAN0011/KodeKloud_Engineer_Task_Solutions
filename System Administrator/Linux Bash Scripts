@@ -15,3 +15,7 @@ scp /backup/xfusioncorp_blog.zip clint@stbkp01:/backup
 ssh-keygen
 
 ssh-copy-id clint@stbkp01
+
+ssh clint@stbkp01
+
+logout
