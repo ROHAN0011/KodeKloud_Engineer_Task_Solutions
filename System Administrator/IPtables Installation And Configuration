@@ -1,4 +1,4 @@
-[check on lb server that you get 403 output] curl -I stapp01:5002
+
 
 
 yum install iptables-services -y
@@ -20,3 +20,6 @@ iptables -R INPUT 5 -p icmp -j REJECT
 service iptables save 
 
 systemctl status iptables
+
+
+[check on lb server that you get 403 output] curl -I stapp01:5002
