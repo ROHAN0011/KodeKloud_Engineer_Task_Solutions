@@ -19,6 +19,4 @@ iptables -R INPUT 5 -p icmp -j REJECT
 
 service iptables save 
 
-systemctl restart iptables   //don't restart
-
 systemctl status iptables
