@@ -1,3 +1,4 @@
 [Login to mail server then swith to root]
 
 
+yum install postfix -y
