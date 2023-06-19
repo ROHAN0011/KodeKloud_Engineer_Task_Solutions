@@ -6,4 +6,4 @@ yum install postfix -y
 yum install dovecot -y
 
 
-[For configuration part watch this video : https://www.youtube.com/watch?v=kdcUfw5vJKY ]
+[ For configuration part watch this video : https://www.youtube.com/watch?v=kdcUfw5vJKY ]
