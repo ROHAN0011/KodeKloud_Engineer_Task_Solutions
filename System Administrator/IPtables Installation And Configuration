@@ -9,7 +9,7 @@ systemctl enable iptables
 
 systemctl status iptables
 
-iptables -I INPUT -p tcp --destination-port 5002 -s 172.16.238.14 -j ACCEPT
+iptables -I INPUT -p tcp --destination-port 5002 -s 172.16.238.14 -j ACCEPT           ---->(check port number and lb server ip as per your task)
 
 iptables -A INPUT -p tcp --destination-port 5002 -j DROP
 
