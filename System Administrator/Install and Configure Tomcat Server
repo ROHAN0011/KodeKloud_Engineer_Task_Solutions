@@ -6,3 +6,17 @@ scp /tmp/ROOT.war steve@stapp02:/tmp
 [Login to app server then switch to root]
 
 yum install -y tomcat
+
+vi /usr/share/tomcat/conf/server.xml         --->Edit the config file of the tomcat server and replace the port mentioned in the given task Connector port of non-ssl
+
+cat /usr/share/tomcat/conf/server.xml |grep port
+
+cp /tmp/ROOT.war /usr/share/tomcat/webapps
+
+ll /usr/share/tomcat/webapps/
+
+systemctl start tomcat
+
+systemctl status tomcat
+
+curl -i http://stapp02:5001         ---->validation
