@@ -1,4 +1,4 @@
-
+[Login to all app servers then swith to root after that run below commands in individual terminals]
 
 
 yum install iptables-services -y
