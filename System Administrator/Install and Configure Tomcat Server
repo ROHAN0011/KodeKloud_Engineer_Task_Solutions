@@ -1,3 +1,5 @@
 [On jumphost server paste below command]
 
 scp /tmp/ROOT.war steve@stapp02:/tmp
+
+yum install -y tomcat
