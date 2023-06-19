@@ -12,7 +12,7 @@ zip -r /backup/xfusioncorp_blog.zip /var/www/html/blog
 scp /backup/xfusioncorp_blog.zip clint@stbkp01:/backup
 ]
 
-ssh-keygen
+ssh-keygen           -------->Remember just click ENTER when asked for password creation (Because,we have to create passwordless login)
 
 ssh-copy-id clint@stbkp01
 
