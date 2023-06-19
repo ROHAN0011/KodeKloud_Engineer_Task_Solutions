@@ -22,4 +22,5 @@ service iptables save
 systemctl status iptables
 
 
-[check on lb server that you get 403 output] curl -I stapp01:5002
+[open another terminal & login to lb server then check response of all app servers] 
+curl -I stapp01:5002
