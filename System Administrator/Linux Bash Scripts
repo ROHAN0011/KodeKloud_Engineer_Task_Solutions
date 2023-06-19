@@ -13,7 +13,7 @@ Inside vi editor paste the below script and change it as per task then save & qu
 ]
 
 
-ssh-keygen           -------->Remember just click ENTER when asked for password creation (Because,we have to create passwordless login)
+ssh-keygen                   ------>Remember just click ENTER when asked for password creation (Because,we have to create passwordless login)
 
 ssh-copy-id clint@stbkp01
 
