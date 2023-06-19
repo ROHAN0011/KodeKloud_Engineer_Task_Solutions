@@ -1,1 +1,6 @@
 [Login to given app server]
+
+
+vi /scripts/ecommerce_backup.sh
+
+[Inside vi editor paste the below script and change it as per task]
