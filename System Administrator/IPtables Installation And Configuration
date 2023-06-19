@@ -23,4 +23,5 @@ systemctl status iptables
 
 
 [open another terminal & login to lb server then check response of all app servers] 
+
 curl -I stapp01:5002
