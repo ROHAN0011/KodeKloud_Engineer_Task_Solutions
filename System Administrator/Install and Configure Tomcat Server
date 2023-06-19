@@ -3,6 +3,6 @@
 scp /tmp/ROOT.war steve@stapp02:/tmp
 
 
-[Login to app server and switch to root]
+[Login to app server then switch to root]
 
 yum install -y tomcat
