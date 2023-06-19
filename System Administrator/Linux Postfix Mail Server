@@ -2,3 +2,5 @@
 
 
 yum install postfix -y
+
+yum install dovecot -y
