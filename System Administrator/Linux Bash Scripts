@@ -19,3 +19,5 @@ ssh-copy-id clint@stbkp01
 ssh clint@stbkp01
 
 logout
+
+sh ecommerce_backup.sh
