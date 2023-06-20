@@ -24,6 +24,7 @@ vi /var/lib/pgsql/data/postgresql.conf                                  --------
 [remove # of #listen_addresses = 'localhost']
 
 vi /var/lib/pgsql/data/pg_hba.conf                                      -------->edit & configure the md5 at bottom of the config file 
+[add # to all bottom side script after that paste below script]
 
 systemctl restart postgresql
 
