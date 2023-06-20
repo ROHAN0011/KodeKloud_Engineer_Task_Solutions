@@ -31,15 +31,16 @@ host all all 127.0.0.1/32 md5
 
 Note: Do not add # in above scipt lines]
 
+
 systemctl restart postgresql
 
 systemctl status postgresql
 
-psql -U kodekloud_top -d kodekloud_db5 -h 127.0.0.1 -W         -         ------->validating the task
+psql -U <db user> -d <db> -h 127.0.0.1 -W                  ------->validating the task
 
 \q
 
-psql -U kodekloud_top -d kodekloud_db5 -h localhost -W
+psql -U <db user> -d <db> -h localhost -W
 
 all#
 local all all md5
