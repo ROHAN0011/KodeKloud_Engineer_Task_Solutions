@@ -1,4 +1,4 @@
-[login  to the database server & Switch to the root]
+[login  to the database server then Switch to the root]
 
 yum -y install postgresql-server postgresql-contrib
 
