@@ -23,7 +23,7 @@ GRANT ALL PRIVILEGES ON DATABASE "<db>" to <db user>;                   --------
 vi /var/lib/pgsql/data/postgresql.conf                                  -------->edit postgresql.conf
 [remove # of #listen_addresses = 'localhost']
 
-vi /var/lib/pgsql/data/pg_hba.conf       --->Edit another config file pg_hba.conf  &  configure the md5 at bottom of the config 
+vi /var/lib/pgsql/data/pg_hba.conf                                      -------->edit & configure the md5 at bottom of the config file 
 
 systemctl restart postgresql
 
