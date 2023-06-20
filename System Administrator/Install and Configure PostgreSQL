@@ -24,13 +24,18 @@ vi /var/lib/pgsql/data/postgresql.conf                                  --------
 [remove # of #listen_addresses = 'localhost']
 
 vi /var/lib/pgsql/data/pg_hba.conf                                      -------->edit & configure the md5 at bottom of the config file 
-[add # to all bottom side script after that paste below script]
+[Add # to all bottom side script after that paste below script:-
+        
+local all all md5 
+host all all 127.0.0.1/32 md5
+
+Note: Do not add # in above scipt lines]
 
 systemctl restart postgresql
 
 systemctl status postgresql
 
-psql -U kodekloud_top -d kodekloud_db5 -h 127.0.0.1 -W         ---->validating the task
+psql -U kodekloud_top -d kodekloud_db5 -h 127.0.0.1 -W         -         ------->validating the task
 
 \q
 
