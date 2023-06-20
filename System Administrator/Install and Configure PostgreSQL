@@ -2,7 +2,7 @@
 
 yum -y install postgresql-server postgresql-contrib
 
-postgresql-setup initdb                                                 --------->initiate db setup
+postgresql-setup initdb                                                 -------->initiate db setup
 
 systemctl enable postgresql
 
@@ -36,13 +36,8 @@ systemctl restart postgresql
 
 systemctl status postgresql
 
-psql -U <db user> -d <db> -h 127.0.0.1 -W                  ------->validating the task
+psql -U <db user> -d <db> -h 127.0.0.1 -W                                ------->validating the task
 
 \q
 
 psql -U <db user> -d <db> -h localhost -W
-
-all#
-local all all md5
-
-host all all 127.0.0.1/32 md5
