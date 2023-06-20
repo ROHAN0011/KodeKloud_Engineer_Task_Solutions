@@ -4,9 +4,7 @@ yum -y install postgresql-server postgresql-contrib
 
 postgresql-setup initdb                                                 -------->initiate db setup
 
-systemctl enable postgresql
-
-systemctl start postgresql
+systemctl enable postgresql && systemctl start postgresql
 
 systemctl status postgresql
 
@@ -29,7 +27,7 @@ vi /var/lib/pgsql/data/pg_hba.conf                                      --------
 local all all md5 
 host all all 127.0.0.1/32 md5
 
-Note: Do not add # in above scipt lines]
+Note: Do not add # in above two scipt lines]
 
 
 systemctl restart postgresql
