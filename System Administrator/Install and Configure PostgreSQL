@@ -1,1 +1,45 @@
 [login  to the database server & Switch to the root]
+
+yum -y install postgresql-server postgresql-contrib
+
+postgresql-setup initdb          ---->Initiate DB setup
+
+systemctl enable postgresql
+
+systemctl start postgresql
+
+systemctl status postgresql
+
+sudo -u postgres psql
+
+CREATE USER kodekloud_top WITH PASSWORD '8FmzjvFU6S';         ---->creating user CREATE ROLE
+
+CREATE DATABASE kodekloud_db5;       ---->creating databse  CREATE DATABASE
+
+GRANT ALL PRIVILEGES ON DATABASE "kodekloud_db5" to kodekloud_top;     ---->granting permission
+
+postgres=# \q
+
+vi /var/lib/pgsql/data/postgresql.conf    --->edit postgresql.conf
+[remove # of #listen_addresses = 'localhost']
+
+cat /var/lib/pgsql/data/postgresql.conf |grep localhost
+
+vi /var/lib/pgsql/data/pg_hba.conf       --->Edit another config file pg_hba.conf  &  configure the md5 at bottom of the config 
+
+cat /var/lib/pgsql/data/pg_hba.conf |grep md5
+
+systemctl restart postgresql
+
+systemctl status postgresql
+
+psql -U kodekloud_top -d kodekloud_db5 -h 127.0.0.1 -W         ---->validating the task
+
+\q
+
+psql -U kodekloud_top -d kodekloud_db5 -h localhost -W
+
+all#
+local all all md5
+
+host all all 127.0.0.1/32 md5
