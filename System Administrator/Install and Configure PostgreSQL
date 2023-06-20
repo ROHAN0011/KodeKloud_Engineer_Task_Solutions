@@ -14,9 +14,9 @@ sudo -u postgres psql
 
 CREATE USER <db user> WITH PASSWORD '<password>';                       -------->creating user
 
-CREATE DATABASE kodekloud_db5;                                          -------->creating databse
+CREATE DATABASE <db>;                                                   -------->creating databse
 
-GRANT ALL PRIVILEGES ON DATABASE "kodekloud_db5" to kodekloud_top;      -------->granting permission
+GRANT ALL PRIVILEGES ON DATABASE "<db>" to <db user>;                   -------->granting permission
 
 postgres=# \q
 
