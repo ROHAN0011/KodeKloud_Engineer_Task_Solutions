@@ -12,11 +12,11 @@ systemctl status postgresql
 
 sudo -u postgres psql
 
-CREATE USER <db user> WITH PASSWORD '<password>';                    -------->creating user CREATE ROLE
+CREATE USER <db user> WITH PASSWORD '<password>';                       -------->creating user
 
-CREATE DATABASE kodekloud_db5;       ---->creating databse  CREATE DATABASE
+CREATE DATABASE kodekloud_db5;                                          -------->creating databse
 
-GRANT ALL PRIVILEGES ON DATABASE "kodekloud_db5" to kodekloud_top;     ---->granting permission
+GRANT ALL PRIVILEGES ON DATABASE "kodekloud_db5" to kodekloud_top;      -------->granting permission
 
 postgres=# \q
 
