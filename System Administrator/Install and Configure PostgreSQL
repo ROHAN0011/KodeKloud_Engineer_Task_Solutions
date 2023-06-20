@@ -12,7 +12,7 @@ systemctl status postgresql
 
 sudo -u postgres psql
 
-CREATE USER kodekloud_top WITH PASSWORD '8FmzjvFU6S';                    -------->creating user CREATE ROLE
+CREATE USER <db user> WITH PASSWORD '<password>';                    -------->creating user CREATE ROLE
 
 CREATE DATABASE kodekloud_db5;       ---->creating databse  CREATE DATABASE
 
