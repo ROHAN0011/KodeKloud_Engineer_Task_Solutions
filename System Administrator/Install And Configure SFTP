@@ -16,34 +16,18 @@ chmod -R 755 /var/www
 ll -lsd /var/www/
 
 vi /etc/ssh/sshd_config
-[go to #override default
-add # Subsystem 1st
-add new line next  Subsystem sftp internal-sftp]
+[
+Go to last part in vi editor #override default ______
+add # to Subsystem      sftp    /usr/libexec/openssh/sftp-server
+add some more configuration (see below command output)
+]
+
+
 
 cat /etc/ssh/sshd_config  |grep sftp -A 10
+[Your output will look like below:-
 
-systemctl restart sshd
-
-systemctl status sshd
-
-
-
-[jump_host]  sftp <user>@stapp03
-
-[appserver] sftp <user>@localhost
-
-
-
-
-
-
-
-
-
-
-
-
-#subsystem      sftp    /usr/libexec/openssh/sftp-server
+#Subsystem      sftp    /usr/libexec/openssh/sftp-server
 
 Subsystem       sftp    internal-sftp
 
@@ -62,3 +46,15 @@ AllowTcpForwarding no
 X11Forwarding no
 
 AllowAgentForwarding no
+]
+
+
+systemctl restart sshd
+
+systemctl status sshd
+
+
+
+[jump_host]  sftp <user>@stapp03
+
+[appserver] sftp <user>@localhost
