@@ -24,9 +24,8 @@ add some more configuration (see below command output)
 ]
 
 
-
 cat /etc/ssh/sshd_config  |grep sftp -A 10
-[Your output will look like below:-
+[[[[[[[[[[Your output will look like below (except Match User & ChrootDirectory):-
 
 #Subsystem      sftp    /usr/libexec/openssh/sftp-server
 
@@ -47,7 +46,7 @@ AllowTcpForwarding no
 X11Forwarding no
 
 AllowAgentForwarding no
-]
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
 
 
 systemctl restart sshd
