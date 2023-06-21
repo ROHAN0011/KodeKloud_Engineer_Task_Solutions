@@ -31,13 +31,13 @@ cat /etc/ssh/sshd_config  |grep sftp -A 10
 
 Subsystem       sftp    internal-sftp
 
-Match User anita
+Match User rohan
 
 ForceCommand internal-sftp
 
 PasswordAuthentication yes
 
-ChrootDirectory /var/www/nfsshare
+ChrootDirectory /var/www/webdata
 
 PermitTunnel no
 
