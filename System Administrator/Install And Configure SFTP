@@ -54,6 +54,7 @@ systemctl restart sshd
 systemctl status sshd
 
 
+[For final validation do following things]
 
 [jump_host]  sftp <user>@stapp03
 
