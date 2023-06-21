@@ -3,7 +3,7 @@
 useradd <user>
 
 passwd <user>
-
+[Enter/Paste given password]
 
 [creating ChrootDirectory]
 
