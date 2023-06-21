@@ -56,6 +56,6 @@ systemctl status sshd
 
 [For final validation do following things]
 
-sftp <user>@localhost                ------>run this command on present appserver   e,g rohan@localhost
+sftp <Given User>@localhost                ------>run this command on present appserver   e.g rohan@localhost
 
-sftp <user>@<appserver> 
+sftp <App User>@<Given Appserver>          ------>run this command in jump_host server    e.g steve@stapp02 (simply open new terminal or logout existing server)
