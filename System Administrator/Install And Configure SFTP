@@ -5,8 +5,6 @@ useradd <user>
 passwd <user>
 [Enter/Paste given password]
 
-[creating ChrootDirectory]
-
 mkdir -p /var/www/webdata  
 
 ll -lsd /var/www/webdata
