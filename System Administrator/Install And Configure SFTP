@@ -1,8 +1,8 @@
 [Login to given app server then switch to root]
 
-useradd <user>
+useradd <Given User>
 
-passwd <user>
+passwd <Given User>
 [Enter/Paste given password]
 
 
@@ -56,6 +56,6 @@ systemctl status sshd
 
 [For final validation do following things]
 
-[jump_host]  sftp <user>@stapp03
+sftp <user>@localhost                ------>run this command on present appserver   e,g rohan@localhost
 
-[appserver] sftp <user>@localhost
+sftp <user>@<appserver> 
