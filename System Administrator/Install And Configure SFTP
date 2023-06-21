@@ -34,3 +34,33 @@ systemctl status sshd
 
 [appserver] sftp <user>@localhost
 
+
+
+
+
+
+
+
+
+
+
+
+#subsystem      sftp    /usr/libexec/openssh/sftp-server
+
+Subsystem       sftp    internal-sftp
+
+Match User anita
+
+ForceCommand internal-sftp
+
+PasswordAuthentication yes
+
+ChrootDirectory /var/www/nfsshare
+
+PermitTunnel no
+
+AllowTcpForwarding no
+
+X11Forwarding no
+
+AllowAgentForwarding no
