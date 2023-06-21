@@ -1,1 +1,36 @@
 [Login to given app server then switch to root]
+
+useradd <user>
+
+passwd <user>
+
+
+[creating ChrootDirectory]
+
+mkdir -p /var/www/webdata  
+
+ll -lsd /var/www/webdata
+
+chown root:root  /var/www
+
+chmod -R 755 /var/www
+
+ll -lsd /var/www/
+
+vi /etc/ssh/sshd_config
+[go to #override default
+add # Subsystem 1st
+add new line next  Subsystem sftp internal-sftp]
+
+cat /etc/ssh/sshd_config  |grep sftp -A 10
+
+systemctl restart sshd
+
+systemctl status sshd
+
+
+
+[jump_host]  sftp <user>@stapp03
+
+[appserver] sftp <user>@localhost
+
