@@ -5,7 +5,7 @@ telnet stapp02
 telnet stapp03
 
 
-[The one which is refusing to connect is the faulty one. So, login and swith to root on that app server]
+[The one which is refusing to connect is the faulty one. So, login and swith to root on that app server. Then run below commands]
 
 systemctl start httpd
 systemctl status httpd
