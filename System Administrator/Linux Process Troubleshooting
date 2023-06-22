@@ -8,7 +8,7 @@ telnet stapp03
 [The one which is refusing to connect is the faulty one. So, login and swith to root on that app server. Then run below commands]
 
 systemctl start httpd
-systemctl status httpd
+systemctl status httpd              ----->(status will inactive/failed)
 
 netstat -tulnp      ---->(sendmail check)
 
