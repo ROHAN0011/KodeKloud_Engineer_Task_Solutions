@@ -22,4 +22,4 @@ systemctl start httpd
 systemctl status httpd
 
 [For validating check on jumphost]
-telnet stapp01 <given apache port>  
+telnet <faulty appserver e.g stapp01> <given apache port>
