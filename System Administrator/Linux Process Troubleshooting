@@ -14,7 +14,7 @@ netstat -tulnp                      ----->remember or note the PID of 'sendmail:
 
 ps -ef |grep sendmail
 
-kill     -----------------------|^
+kill <PID>
 
 ps -ef |grep sendmail
 
