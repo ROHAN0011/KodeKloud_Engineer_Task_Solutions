@@ -1,6 +1,6 @@
 [As per question there is one faulty app host so for finding that run below command on jump_host]
 
-telnet stapp01 <apache port>
+telnet stapp01 <given apache port>
 telnet stapp02
 telnet stapp03
 
@@ -22,6 +22,4 @@ systemctl start httpd
 systemctl status httpd
 
 [For validating check on jumphost]
-telnet stapp01 <apache port>     6100
-
-618
+telnet stapp01 <given apache port>  
