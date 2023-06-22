@@ -4,7 +4,8 @@ telnet stapp01 <apache port>
 telnet stapp02
 telnet stapp03
 
-[login to faulty one and switch to root]
+
+[The one which is refusing to connect is the faulty one. So, login and swith to root on that app server]
 
 systemctl start httpd
 systemctl status httpd
