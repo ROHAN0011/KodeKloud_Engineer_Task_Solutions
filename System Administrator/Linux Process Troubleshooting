@@ -1,6 +1,4 @@
-try all 3 jump_host to identify faulty one
-
-
+[As per question there is one faulty app host so for finding that run below command on jump_host]
 
 telnet stapp01 <apache port>
 telnet stapp02
