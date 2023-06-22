@@ -10,7 +10,7 @@ telnet stapp03
 systemctl start httpd
 systemctl status httpd              ----->(status will inactive/failed)
 
-netstat -tulnp                      ----->remember or note the PID of sendmail:accep  it will visible in the format of PID/sendmail:accep   e.g 618/sendmail:accep   here, 618 is my PID
+netstat -tulnp                      ----->remember or note the PID of 'sendmail:accep'  it will visible in the format of PID/sendmail:accep   e.g 618/sendmail:accep   here, 618 is my PID
 
 ps -ef |grep sendmail
 
