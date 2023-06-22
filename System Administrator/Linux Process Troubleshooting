@@ -1,1 +1,30 @@
 try all 3 jump_host to identify faulty one
+
+
+
+telnet stapp01 <apache port>
+telnet stapp02
+telnet stapp03
+
+[login to faulty one and switch to root]
+
+systemctl start httpd
+systemctl status httpd
+
+netstat -tulnp      ---->(sendmail check)
+
+ps -ef |grep sendmail
+
+kill     -----------------------|^
+
+ps -ef |grep sendmail
+
+systemctl start httpd
+systemctl status httpd
+
+
+
+for validating check on jumphost
+telnet stapp01 <apache port>     6100
+
+618
