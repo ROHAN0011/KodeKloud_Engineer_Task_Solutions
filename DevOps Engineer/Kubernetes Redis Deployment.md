@@ -1,5 +1,6 @@
 vi /tmp/redis.yml
 
+[Paste below script as it is only change if it is required as per given task]
 ```
 ---
 kind: ConfigMap
