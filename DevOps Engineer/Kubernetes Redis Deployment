@@ -45,3 +45,11 @@ spec:
           name: my-redis-config
 
 ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+kubectl create -f /tmp/redis.yml
+
+kubectl get pods        ----------->wait for running status
+
+kubectl get configmap
+
+kubectl describe configmap
