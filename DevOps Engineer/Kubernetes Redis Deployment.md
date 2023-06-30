@@ -1,7 +1,6 @@
 vi /tmp/redis.yml
 
-[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[paste below script as it is change settings only if needed as per task:-
-
+```
 ---
 kind: ConfigMap
 apiVersion: v1
@@ -44,7 +43,7 @@ spec:
         configMap:
           name: my-redis-config
 
-]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+```
 
 kubectl create -f /tmp/redis.yml
 
