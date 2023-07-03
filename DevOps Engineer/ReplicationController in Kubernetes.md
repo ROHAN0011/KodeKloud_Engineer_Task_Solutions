@@ -43,3 +43,7 @@ Creating Pod
 ```
 kubectl create -f /tmp/replica.yml
 ```
+Checking pod status (wait for running status)
+```
+kubectl get pods
+```
