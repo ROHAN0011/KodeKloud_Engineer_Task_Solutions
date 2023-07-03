@@ -5,3 +5,6 @@ Checking existing deployment and  pods running status
 ```
 kubectl get namespace
 ```
+```
+kubectl get pods
+```
