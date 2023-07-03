@@ -25,3 +25,6 @@ vi /etc/hosts
 ```
 ping puppet
 ```
+```
+systemctl restart puppet
+```
