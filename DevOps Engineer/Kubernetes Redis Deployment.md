@@ -50,10 +50,10 @@ spec:
 ```
 kubectl create -f /tmp/redis.yml
 ```
-Wait for pods running status
 ```
 kubectl get pods
 ```
+Wait for pod running status then run below commands
 ```
 kubectl get configmap
 ```
