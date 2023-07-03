@@ -1,10 +1,9 @@
 [Do run the below commands on jump_host server]
-
+```
 vi /tmp/nginx.yaml
-
-
-[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[Paste below script and just do some required changes like ports numbers as given in the task :-
-
+```
+Paste below script and just do some required changes like ports numbers as given in the task :-
+```
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -66,18 +65,24 @@ spec:
      - port: 8099                                                                                               
        targetPort: 8099                                                                                         
        nodePort: 30012     
-
-]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
-
-
+```
+```
 kubectl create -f /tmp/nginx.yaml
-
+```
+```
 kubectl get configmap
-
-kubectl get pods                               ----------------->(wait for runnig status)
-
+```
+```
+kubectl get pods
+```
+Wait for runnig status then run below commands
+```
 kubectl cp /opt/index.php nginx-phpfpm:/var/www/html/ --container=nginx-container
-
-kubectl exec -it nginx-phpfpm -- /bin/bash     ----------------->validation
-
+```
+Validation
+```
+kubectl exec -it nginx-phpfpm -- /bin/bash
+```
+```
 curl http://localhost:<paste given port no>
+```
