@@ -8,3 +8,8 @@ kubectl get namespace
 ```
 kubectl get pods
 ```
+
+Creating yml file
+```
+vi /etc/replica.yml
+```
