@@ -6,9 +6,7 @@ Open vi editor and add puppet infront of last 3 lines
 ```
 vi /etc/hosts
 ```
+After that,
 ```
 puppetserver ca list --all
-```
-```
-cat /etc/hosts
 ```
