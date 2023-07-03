@@ -10,6 +10,9 @@ After that,
 ```
 puppetserver ca list --all
 ```
+```
+cat /etc/hosts
+```
 {Terminal 2}
 
 [Login to given app server as per task and switch to root]
