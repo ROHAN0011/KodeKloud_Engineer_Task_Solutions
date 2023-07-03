@@ -22,3 +22,6 @@ Remove jump_host line and add last two 3 lines from Terminal 1 (which we got usi
 ```
 vi /etc/hosts
 ```
+```
+ping puppet
+```
