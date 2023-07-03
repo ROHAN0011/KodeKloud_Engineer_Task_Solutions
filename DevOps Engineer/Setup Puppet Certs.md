@@ -18,7 +18,8 @@ cat /etc/hosts
 {{{{{ Terminal 2 }}}}}
 
 [Login to given app server as per task and switch to root]
-Remove jump_host line and add last two 3 lines from Terminal 1 (which we got using cat /etc/hosts)
+
+Remove jump_host line and add last three lines from Terminal 1 (which we got using cat /etc/hosts)
 ```
 vi /etc/hosts
 ```
