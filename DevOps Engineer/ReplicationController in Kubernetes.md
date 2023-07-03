@@ -13,3 +13,29 @@ Creating yml file
 ```
 vi /etc/replica.yml
 ```
+Paste below script inside vi editor
+```
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: nginx-replicationcontroller
+  labels:
+    app: nginx_app
+    type: front-end
+spec:
+  replicas: 3
+  selector:
+    app: nginx_app
+  template:
+    metadata:
+      name: nginx_pod
+      labels:
+        app: nginx_app
+        type: front-end
+    spec:
+      containers:
+        - name: nginx-container
+          image: nginx:latest
+          ports:
+            - containerPort: 80
+```
