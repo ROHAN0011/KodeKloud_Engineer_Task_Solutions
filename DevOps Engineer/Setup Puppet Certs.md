@@ -9,3 +9,6 @@ vi /etc/hosts
 ```
 puppetserver ca list --all
 ```
+```
+cat /etc/hosts
+```
