@@ -36,3 +36,6 @@ systemctl status puppet
 ```
 puppetserver ca list --all
 ```
+```
+puppetserver ca sign --all
+```
