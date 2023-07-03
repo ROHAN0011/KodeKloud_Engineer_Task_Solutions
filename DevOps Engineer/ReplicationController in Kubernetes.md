@@ -13,7 +13,7 @@ Creating yml file
 ```
 vi /etc/replica.yml
 ```
-Paste below script inside vi editor
+Paste below script inside vi editor (Change some things like replicas, names, ports etc. as per task)
 ```
 apiVersion: v1
 kind: ReplicationController
