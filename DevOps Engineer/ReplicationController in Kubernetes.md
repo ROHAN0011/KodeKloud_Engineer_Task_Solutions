@@ -39,3 +39,7 @@ spec:
           ports:
             - containerPort: 80
 ```
+Creating Pod
+```
+kubectl create -f /tmp/replica.yml
+```
