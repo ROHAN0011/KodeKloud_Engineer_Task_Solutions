@@ -31,3 +31,8 @@ systemctl restart puppet
 ```
 systemctl status puppet
 ```
+
+{{{{{ Terminal 1 }}}}}
+```
+puppetserver ca list --all
+```
