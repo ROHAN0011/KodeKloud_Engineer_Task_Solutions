@@ -39,3 +39,11 @@ puppetserver ca list --all
 ```
 puppetserver ca sign --all
 ```
+
+
+{{{{{ Terminal 2 }}}}}
+
+Validation
+```
+puppet agent -t
+```
