@@ -13,3 +13,6 @@ puppetserver ca list --all
 {Terminal 2}
 
 [Login to given app server as per task and switch to root]
+```
+vi /etc/hosts
+```
