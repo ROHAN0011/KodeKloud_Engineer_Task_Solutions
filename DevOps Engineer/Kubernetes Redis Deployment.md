@@ -1,6 +1,8 @@
+```
 vi /tmp/redis.yml
+```
 
-[Paste below script as it is. Only change if it is required as per given task]
+[Paste below script in Vi editor as it is. Only change if it is required as per given task]
 ```
 ---
 kind: ConfigMap
@@ -45,11 +47,16 @@ spec:
           name: my-redis-config
 
 ```
-
+```
 kubectl create -f /tmp/redis.yml
-
-kubectl get pods        ----------->wait for running status
-
+```
+Wait for pods running status
+```
+kubectl get pods
+```
+```
 kubectl get configmap
-
+```
+```
 kubectl describe configmap
+```
