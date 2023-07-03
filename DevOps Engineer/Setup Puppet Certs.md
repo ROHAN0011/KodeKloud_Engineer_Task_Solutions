@@ -28,3 +28,6 @@ ping puppet
 ```
 systemctl restart puppet
 ```
+```
+systemctl status puppet
+```
