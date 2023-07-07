@@ -3,7 +3,7 @@ Login to given app server then switch to root
 ```
 docker images
 ```
-NOTE: ecommerce:xfusion is given server name for my task check and change this thing as per your task in further commands 
+NOTE: ecommerce:xfusion is given name for my task check and change this thing as per your task in further commands 
 ```
 docker save -o /tmp/ecommerce.tar ecommerce:xfusion
 ```
