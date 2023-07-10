@@ -10,3 +10,4 @@ Now open the vi editor and edit the nginx.yaml (Replace all /usr/share/nginx/htm
 ```
 vi /tmp/nginx.yaml
 ```
+Then, Force apply or replace the yaml
