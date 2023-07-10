@@ -19,3 +19,6 @@ Copy the index.php to /var/www/html folder of container as per given task
 kubectl cp  /home/thor/index.php  nginx-phpfpm:/var/www/html -c nginx-container
 ```
 Final Validation
+```
+kubectl exec -it nginx-phpfpm -c nginx-container  -- curl -I  http://localhost:8099
+```
