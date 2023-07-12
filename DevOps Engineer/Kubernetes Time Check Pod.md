@@ -5,7 +5,7 @@ kubectl create namespace <paste_given_namespace>
 ```
 vi /tmp/time.yaml
 ```
-In below script just change the namespace, TIME_FREQ, image, mountpath of volumeMounts and fimal args: path etc. as per your task
+In below script just change the namespace, TIME_FREQ, image, mountpath of volumeMounts and args: given full path etc. as per your task
 ```
 apiVersion: v1
 kind: ConfigMap
