@@ -3,3 +3,6 @@
 kubectl create namespace <paste_given_namespace>
 
 vi /tmp/time.yaml
+
+
+kubectl create -f /tmp/time.yaml
