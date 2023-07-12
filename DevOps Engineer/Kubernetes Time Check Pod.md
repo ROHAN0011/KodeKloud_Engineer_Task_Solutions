@@ -6,3 +6,5 @@ vi /tmp/time.yaml
 
 
 kubectl create -f /tmp/time.yaml
+
+kubectl get pods -n <paste_given_namespace>
