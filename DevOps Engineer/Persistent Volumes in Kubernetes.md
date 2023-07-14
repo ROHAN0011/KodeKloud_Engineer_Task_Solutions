@@ -65,3 +65,7 @@ spec:
       targetPort: 80
       nodePort: 30008
 ```
+Then,
+```
+kubectl create -f /tmp/pvc.yaml
+```
