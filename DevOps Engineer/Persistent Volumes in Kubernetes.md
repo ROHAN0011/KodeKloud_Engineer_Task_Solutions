@@ -69,3 +69,7 @@ Then,
 ```
 kubectl create -f /tmp/pvc.yaml
 ```
+```
+kubectl get pods
+```
+Wait for Running status and check/finish
